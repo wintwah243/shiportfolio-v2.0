@@ -144,9 +144,9 @@ export const SKILLS = [
 export const ABOUT_ME = {
     content: ` I am a passionate and driven software engineer with experience in web development, focusing on creating dynamic, user-friendly applications and continuously improving my technical skills to solve real-world problems. `,
     socialLinks: [
-        { id:"01", label:"Instagram", icon:FaInstagram, Link:"https://www.instagram.com/shi1_shi4?igsh=aGczNmNqOGhocjdv&utm_source=qr" },
-        { id:"02", label:"Instagram", icon:FaLinkedin, Link:"http://linkedin.com/in/wint-wah-386240307" },
-        { id:"03", label:"GitHub", icon:FaGithub, Link:"https://github.com/wintwah243" },
+        { id:"01", label:"Instagram", icon:FaInstagram, link:"https://www.instagram.com/shi1_shi4?igsh=aGczNmNqOGhocjdv&utm_source=qr" },
+        { id:"02", label:"Instagram", icon:FaLinkedin, link:"http://linkedin.com/in/wint-wah-386240307" },
+        { id:"03", label:"GitHub", icon:FaGithub, link:"https://github.com/wintwah243" },
     ],
     email:"wahwint72@gmail.com",
     phone:"+95 9254229977",
