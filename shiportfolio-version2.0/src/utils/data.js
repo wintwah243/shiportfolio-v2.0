@@ -53,22 +53,6 @@ export const SKILLS = [
     },
     {
         id:"02",
-        icon:FaHtml5,
-        skill:"HTML",
-        progress: 99,
-        type:"language",
-        description:"I have experience using HTML5 to structure modern, semantic, and accessible web pages for a variety of projects."
-    },
-    {
-        id:"03",
-        icon:FaCss3,
-        skill:"CSS",
-        progress: 99,
-        type:"language",
-        description:"I have experience using CSS to style responsive and visually appealing web interfaces, including layout design, animations, and media queries."
-    },
-    {
-        id:"04",
         icon:BiLogoJavascript,
         skill:"JavaScript",
         progress: 78,
@@ -76,7 +60,7 @@ export const SKILLS = [
         description:"I have experience using JavaScript to add interactivity and functionality to web applications, including DOM manipulation, event handling, and API integration."
     },
     {
-        id:"05",
+        id:"03",
         icon:FaNodeJs,
         skill:"Node.js",
         progress: 75,
@@ -84,7 +68,7 @@ export const SKILLS = [
         description:"I have experience using Node.js to build backend services and APIs, handling server-side logic, routing, and database integration."
     },
     {
-        id:"06",
+        id:"04",
         icon:SiExpress,
         skill:"Express.js",
         progress: 75,
@@ -92,7 +76,7 @@ export const SKILLS = [
         description:"I have experience using Express.js to create efficient and scalable RESTful APIs, manage routes, and handle middleware in Node.js applications."
     },
     {
-        id:"07",
+        id:"05",
         icon:SiMongodb,
         skill:"MongoDB",
         progress: 75,
@@ -100,7 +84,7 @@ export const SKILLS = [
         description:"I have experience using MongoDB to design and manage NoSQL databases, perform CRUD operations, and integrate data storage with backend applications."
     },
     {
-        id:"08",
+        id:"06",
         icon:SiMysql,
         skill:"MySQL",
         progress: 75,
@@ -108,7 +92,7 @@ export const SKILLS = [
         description:"I have experience using MySQL to design relational databases, write SQL queries, and manage data for backend applications with structured schemas."
     },
     {
-        id:"09",
+        id:"07",
         icon:FaGitAlt,
         skill:"Git & GitHub",
         progress: 80,
@@ -116,7 +100,7 @@ export const SKILLS = [
         description:"I have experience using Git and GitHub for version control, collaborating on projects, managing repositories, and tracking changes through commits and branches."
     },
     {
-        id:"10",
+        id:"8",
         icon:VscVscode,
         skill:"Visual Studio Code",
         progress: 80,
@@ -124,7 +108,7 @@ export const SKILLS = [
         description:"I have experience using Visual Studio Code as my primary code editor, utilizing its extensions, debugging tools, and integrated terminal to streamline development."
     },
     {
-        id:"11",
+        id:"9",
         icon:FaFigma,
         skill:"Figma",
         progress: 70,
@@ -132,7 +116,7 @@ export const SKILLS = [
         description:"I have experience using Figma to design user interfaces, create interactive prototypes, and collaborate with teams on visual design projects."
     },
     {
-        id:"13",
+        id:"10",
         icon:VscCommentUnresolved,
         skill:"Presentation",
         progress: 70,
@@ -140,7 +124,7 @@ export const SKILLS = [
         description:"I have experience developing presentation soft skills, effectively communicating ideas, engaging audiences, and delivering clear and confident presentations."
     },
     {
-        id:"14",
+        id:"11",
         icon:MdGroups3,
         skill:"Teamwork",
         progress: 60,
@@ -148,12 +132,12 @@ export const SKILLS = [
         description:"I have experience working in teams, collaborating effectively, listening to diverse perspectives, and contributing to group goals to achieve successful outcomes."
     },
     {
-        id:"15",
+        id:"12",
         icon:VscTerminalPowershell,
-        skill:"Attention to Details",
+        skill:"Leadership",
         progress: 70,
         type:"soft-skills",
-        description:"I have developed strong attention to detail by consistently reviewing work for accuracy, ensuring high-quality results, and identifying potential issues before they arise."
+        description:"I have developed strong leadership by consistently reviewing work for accuracy, ensuring high-quality results, and identifying potential issues before they arise."
     },
 ];
 
