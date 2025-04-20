@@ -9,7 +9,6 @@ const SkillCard = ({icon, skillName, description, progress}) => {
             <div className='flex-1'>
                 <div className='flex items-center justify-between'>
                     <p className='text-[13px] text-black font-medium'>{skillName}</p>
-                    <p className='text-xs text-gray-400 font-medium'>{progress}</p>
                 </div>
                 
                 <div className='w-full bg-green rounded-md h-[15px] relative mt-2'>
