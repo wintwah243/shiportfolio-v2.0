@@ -38,7 +38,13 @@ const AboutMe = () => {
 
           <div className='flex gap-4 mt-6'>
             {ABOUT_ME.socialLinks.map((item) => (
-              <a key={item.label} className='cursor-pointer group'>
+              <a
+              key={item.label}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className='cursor-pointer group'
+              >
                 <item.icon className='text-2xl text-semibold transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 group-hover:translate-y-[-2px]' />
               </a>
             ))}
