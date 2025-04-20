@@ -31,9 +31,9 @@ export const MENU_LINKS = [
 ];
 
 export const STATS = [
-    { id: "01", count: "∞", label: `Passion for \nLearning` },
-    { id: "02", count: "30+", label: `UI Components \nDesigned` },
-    { id:"03", count:"13+", label:`Projects \nCompleted` },
+    { id: "01", count: "1", label: "Hackathons \nParticipated" },
+    { id: "02", count: "10+", label: `UI Components \nDesigned` },
+    { id:"03", count:"10+", label:`Projects \nCompleted` },
 ];
 
 export const SKILL_TABS = [
