@@ -19,7 +19,13 @@ const Tech = () => {
 
 
   return (
-    <section id='skills' className='mt-20 bg-white'>
+    <motion.section
+    initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      id='skills'
+      className='mt-20 bg-white'>
       <div className='container mx-auto p-10'>
         <div className='w-full lg:w-[60vw] mx-auto'>
           <h4 className='section-title'>Technical Skills</h4>
@@ -50,7 +56,7 @@ const Tech = () => {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 
