@@ -150,7 +150,7 @@ export const ABOUT_ME = {
     ],
     email:"wahwint72@gmail.com",
     phone:"+95 9254229977",
-    github:"https://github.com/wintwah243"
+    github:"wintwah243"
 };
 
 export const PROJECTS = [
