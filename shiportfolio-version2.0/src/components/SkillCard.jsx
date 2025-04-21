@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillCard = ({icon, skillName, description, progress}) => {
   return (
-    <div className='bg-white rounded-2xl border p-4 mt-5'>
+    <div className='bg-white rounded-2xl border p-4 mt-1'>
         <div className='flex gap-3'>
             <div className='w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full'>{icon}</div>
 
