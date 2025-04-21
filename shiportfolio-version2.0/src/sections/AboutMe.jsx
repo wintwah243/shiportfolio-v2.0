@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import LOGO from '../assets/images/LOGO.png'
+import ABOUTMELOGO from '../assets/images/ABOUTMELOGO.png'
 import { ABOUT_ME } from '../utils/data'
 
 const AboutMe = () => {
@@ -23,7 +23,7 @@ const AboutMe = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <img src={LOGO} alt='Profile Pic' className='profile-pic' />
+          <img src={ABOUTMELOGO} alt='Profile Pic' className='profile-pic' />
         </motion.div>
 
         <motion.div
