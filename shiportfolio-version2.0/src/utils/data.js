@@ -38,7 +38,7 @@ export const STATS = [
 ];
 
 export const SKILL_TABS = [
-    { id:"01", label:"Programming Language", value:"language" },
+    { id:"01", label:"Tech", value:"language" },
     { id:"02", label:"Tools", value:"tools" },
     { id:"03", label:"Soft Skills", value:"soft-skills" },
 ];
