@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const StatInfoCard = ({ count, label }) => {
   return (
     <motion.div
-      className='flex-1 flex gap-3 md:gap-5 bg-yellow-200 rounded-[14px] p-5'
+      className='flex-1 flex gap-3 md:gap-5 bg-yellow-200 border border-gray-400 rounded-[14px] p-5'
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
