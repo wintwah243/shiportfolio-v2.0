@@ -159,19 +159,22 @@ export const PROJECTS = [
         id:1,
         title:"BudgetBee || Full Stack Budget Tracking Project Using MERN",
         image:BudgetBeePJ,
-        tags:["React", "Express.js", "MongoDB", "Node.js"]
+        tags:["React", "Express.js", "MongoDB", "Node.js"],
+        link:"https://github.com/wintwah243/BudgetBee"
     },
     {
         id:2,
         title:"TechCraft || Full Stack Ecommerce Project",
         image:TechCraftPJ,
-        tags:["React", "Express.js", "MySQL", "Node.js"]
+        tags:["React", "Express.js", "MySQL", "Node.js"],
+        link:"https://github.com/wintwah243/TechCraft-Store-Project"
     },
     {
         id:3,
         title:"K-Town || Full Stack Album Selling Website Using JavaEE",
         image:ktownpj,
-        tags:["Java", "MySQL"]
+        tags:["Java", "MySQL"],
+        link:"https://github.com/wintwah243/Album-Selling-Website-Full-Stack-Project"
     }
 ];
 
