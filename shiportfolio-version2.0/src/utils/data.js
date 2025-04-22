@@ -94,14 +94,14 @@ export const SKILLS = [
     },
     {
         id:"07",
-        icon:FaGitAlt,
-        skill:"Git & GitHub",
+        icon:FaFigma,
+        skill:"Figma",
         progress: 95,
         type:"tools",
-        description:"I have experience using Git and GitHub for version control, collaborating on projects, managing repositories, and tracking changes through commits and branches."
+        description:"I have experience using Figma to design user interfaces, create interactive prototypes, and collaborate with teams on visual design projects."
     },
     {
-        id:"8",
+        id:"08",
         icon:VscVscode,
         skill:"Visual Studio Code",
         progress: 95,
@@ -109,12 +109,12 @@ export const SKILLS = [
         description:"I have experience using Visual Studio Code as my primary code editor, utilizing its extensions, debugging tools, and integrated terminal to streamline development."
     },
     {
-        id:"9",
-        icon:FaFigma,
-        skill:"Figma",
+        id:"09",
+        icon:FaGitAlt,
+        skill:"Git & GitHub",
         progress: 95,
         type:"tools",
-        description:"I have experience using Figma to design user interfaces, create interactive prototypes, and collaborate with teams on visual design projects."
+        description:"I have experience using Git and GitHub for version control, collaborating on projects, managing repositories, and tracking changes through commits and branches."
     },
     {
         id:"10",
@@ -146,9 +146,8 @@ export const ABOUT_ME = {
     content: ` I am a passionate and driven software engineer with experience in web development, focusing on creating dynamic, user-friendly applications and continuously improving my technical skills to solve real-world problems. `,
     socialLinks: [
         { id:"01", label:"Instagram", icon:FaInstagram, link:"https://www.instagram.com/shi1_shi4?igsh=aGczNmNqOGhocjdv&utm_source=qr" },
-        { id:"02", label:"Instagram", icon:FaLinkedin, link:"http://linkedin.com/in/wint-wah-386240307" },
-        { id:"03", label:"GitHub", icon:FaGithub, link:"https://github.com/wintwah243" },
-         { id:"04", label:"Email", icon:FaEnvelope, link: "mailto:wahwint72@gmail.com" },
+        { id:"02", label:"GitHub", icon:FaGithub, link:"https://github.com/wintwah243" },
+         { id:"03", label:"Email", icon:FaEnvelope, link: "mailto:wahwint72@gmail.com" },
     ],
     email:"wahwint72@gmail.com",
     phone:"+95 9254229977",
