@@ -13,7 +13,7 @@ const SkillCard = ({icon, skillName, description, progress}) => {
                 
                 <div className='w-full bg-green rounded-md h-[15px] relative mt-2'>
                 <div
-                    className='bg-black h-[5px] rounded-md'
+                    className='bg-black h-[1px] rounded-md'
                     style={{ width:`${progress}%`}}
                 >
                 </div>
