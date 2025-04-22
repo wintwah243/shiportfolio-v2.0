@@ -68,6 +68,7 @@ const Projects = () => {
                     imgUrl={project.image}
                     title={project.title}
                     tags={project.tags}
+                    link={project.link}
                   />
                 </motion.div>
               ))}
