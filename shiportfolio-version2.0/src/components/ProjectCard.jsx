@@ -17,6 +17,12 @@ const ProjectCard = ({imgUrl, title, tags}) => {
                     </span>
                 ))}
             </div>
+
+          <div className=''>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className='cursor-pointer group'>
+                        <button className='mt-2'>View on GitHub</button>
+                    </a>
+          </div>
         </div>
     </div>
   )
