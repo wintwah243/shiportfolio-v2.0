@@ -49,11 +49,13 @@
 
 .action-btn-outline{
   background-color:black;
+  height: 50px;
 }
 
 .action-btn{
   color:black;
   background-color: #FEF08A;
+  height: 50px;
 }
 
 .menu-item {
