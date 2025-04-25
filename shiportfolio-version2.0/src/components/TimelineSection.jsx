@@ -23,7 +23,7 @@ const TimelineSection = () => {
   return (
     <div className="mt-20 space-y-12">
       <h2 className="text-2xl font-bold text-center text-gray-800">My Journey</h2>
-      <div className="relative border-l-4 border-yellow-300 pl-10 ml-4">
+      <div className="relative border-l-4 border-yellow-200 pl-10 ml-4">
         {timelineData.map((item, index) => (
           <motion.div
             key={index}
@@ -33,7 +33,7 @@ const TimelineSection = () => {
             transition={{ duration: 0.6 }} 
           >
             {/* Circle */}
-            <div className="absolute -left-6 top-2 w-4 h-4 bg-yellow-300 rounded-full border-4 border-white shadow-md"></div>
+            <div className="absolute -left-6 top-2 w-4 h-4 bg-yellow-200 rounded-full border-4 border-white shadow-md"></div>
 
             {/* Content */}
             <h3 className="text-lg font-semibold text-gray-900">{item.title}</h3>
