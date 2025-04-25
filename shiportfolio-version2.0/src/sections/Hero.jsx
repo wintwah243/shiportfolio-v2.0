@@ -3,6 +3,7 @@ import LOGO from "../assets/images/LOGO.png";
 import { STATS } from '../utils/data';
 import StatInfoCard from '../components/StatInfoCard';
 import { motion } from 'framer-motion';
+import TimelineSection from '../components/TimelineSection';
 
 const Hero = () => {
   return (
@@ -80,6 +81,8 @@ const Hero = () => {
           <StatInfoCard key={item.id} count={item.count} label={item.label} />
         ))}
       </motion.div>
+
+       <TimelineSection />
     </section>
   );
 };
