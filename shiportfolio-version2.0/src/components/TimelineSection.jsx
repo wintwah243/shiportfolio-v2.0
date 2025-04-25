@@ -5,7 +5,7 @@ const timelineData = [
   {
     title: "Academic",
     date: "2022 - Present",
-    description: "Studying Software Engineering at University of Computer Studies, Yangon, focusing on web and app development, algorithms, and AI integrated projects.",
+    description: "Studying Software Engineering at University of Computer Studies, Yangon",
   },
   {
     title: "Experience",
@@ -15,7 +15,7 @@ const timelineData = [
   {
     title: "Future Plan",
     date: "2025 and beyond",
-    description: "I aim to enhance my technical skills in software development, focusing on building innovative solutions and contributing to impactful projects in the tech industry.",
+    description: "I aim to enhance my technical skills in software development by focusing on building innovative, AI-integrated projects that make a meaningful impact on the community.",
   },
 ];
 
