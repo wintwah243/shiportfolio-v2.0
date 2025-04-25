@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const timelineData = [
   {
-    title: "Academic Journey",
+    title: "Academic",
     date: "2022 - Present",
     description: "Studying Software Engineering at University of Computer Studies, Yangon, focusing on web and app development, algorithms, and AI integrated projects.",
   },
