@@ -71,6 +71,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
+      {/* 
       <motion.div
         className='flex gap-12 mt-16 md:mt-24 flex-wrap'
         initial={{ opacity: 0 }}
@@ -80,7 +81,7 @@ const Hero = () => {
         {STATS.map((item) => (
           <StatInfoCard key={item.id} count={item.count} label={item.label} />
         ))}
-      </motion.div>
+      </motion.div> */}
 
        <TimelineSection />
     </section>
