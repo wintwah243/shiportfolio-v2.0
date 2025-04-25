@@ -159,14 +159,14 @@ export const PROJECTS = [
         id:1,
         title:"BudgetBee || Full Stack Budget Tracking Project Using MERN",
         image:BudgetBeePJ,
-        tags:["React", "Express.js", "MongoDB", "Node.js"],
+        tags:["React", "Express", "MongoDB", "Node"],
         link:"https://github.com/wintwah243/BudgetBee"
     },
     {
         id:2,
         title:"TechCraft || Full Stack Ecommerce Project",
         image:TechCraftPJ,
-        tags:["React", "Express.js", "MySQL", "Node.js"],
+        tags:["React", "Express", "MySQL", "Node"],
         link:"https://github.com/wintwah243/TechCraft-Store-Project"
     },
     {
