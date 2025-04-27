@@ -20,7 +20,7 @@ import { FaGitAlt} from "react-icons/fa6";
 import {MdGroups3} from "react-icons/md";
 
 import BudgetBeePJ from "../assets/images/BudgetBeePJ.JPG";
-import TechCraftPJ from "../assets/images/TechCraftPJ.jpg";
+import mapitopj from "../assets/images/robot.jpg";
 import ktownpj from "../assets/images/ktownpj.jpg";
 
 export const MENU_LINKS = [
@@ -164,10 +164,10 @@ export const PROJECTS = [
     },
     {
         id:2,
-        title:"TechCraft || Full Stack Ecommerce Project",
-        image:TechCraftPJ,
-        tags:["React", "Express", "MySQL", "Node"],
-        link:"https://github.com/wintwah243/TechCraft-Store-Project"
+        title:"Mapito || AI-powered RoadMap Generator Project",
+        image:mapitopj,
+        tags:["React", "Express", "Node", "GEMINI"],
+        link:"https://github.com/wintwah243/Mapito"
     },
     {
         id:3,
