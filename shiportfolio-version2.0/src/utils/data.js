@@ -164,7 +164,7 @@ export const PROJECTS = [
     },
     {
         id:2,
-        title:"Mapito || AI-powered RoadMap Generator Project",
+        title:"Mapito || AI-powered Practicing Platform for Developer",
         image:mapitopj,
         tags:["React", "Express", "Node", "GEMINI"],
         link:"https://github.com/wintwah243/Mapito"
