@@ -148,6 +148,7 @@ export const ABOUT_ME = {
         { id:"01", label:"Instagram", icon:FaInstagram, link:"https://www.instagram.com/shi1_shi4?igsh=aGczNmNqOGhocjdv&utm_source=qr" },
         { id:"02", label:"GitHub", icon:FaGithub, link:"https://github.com/wintwah243" },
          { id:"03", label:"Email", icon:FaEnvelope, link: "mailto:wahwint72@gmail.com" },
+         { id:"04", label:"LinkedIn", icon:FaLinkedin, link: "http://linkedin.com/in/wint-wah-386240307" },
     ],
     email:"wahwint72@gmail.com",
     phone:"+95 9254229977",
@@ -166,7 +167,7 @@ export const PROJECTS = [
         id:2,
         title:"Mapito || AI-powered Practicing Platform for Developer",
         image:mapitopj,
-        tags:["React", "Express", "Node", "GEMINI"],
+        tags:["React", "Express", "MongoDB", "GEMINI"],
         link:"https://github.com/wintwah243/Mapito"
     },
     {
