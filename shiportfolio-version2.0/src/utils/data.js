@@ -179,4 +179,22 @@ export const PROJECTS = [
     }
 ];
 
+export const timelineData = [
+    {
+      title: "Academic",
+      date: "2022 - Present",
+      description: "Studying Software Engineering at University of Computer Studies, Yangon",
+    },
+    {
+      title: "Experience",
+      date: "",
+      description: "Experienced in using programming languages like JavaScript and React to build functional and visually appealing projects.",
+    },
+    {
+      title: "Future Plan",
+      date: "2025 and beyond",
+      description: "I aim to enhance my technical skills in software development by focusing on building innovative, AI-integrated solutions that make a meaningful impact on the community.",
+    },
+  ];
+
 
