@@ -16,7 +16,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h3 className='text-xl lg:text-2xl font-medium text-black'>Hi, I'm Shi 🐝</h3>
+          <h3 className='text-xl lg:text-2xl font-medium text-black'>Hi, I'm Shi 👋</h3>
 
           <motion.h1
             className='w-full lg:w-[720px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-yellow-200 rounded-[20px] p-6'
@@ -70,18 +70,6 @@ const Hero = () => {
           <img src={LOGO} alt='Profile Pic' className='profile-pic' />
         </motion.div>
       </div>
-
-      {/* 
-      <motion.div
-        className='flex gap-12 mt-16 md:mt-24 flex-wrap'
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.2, delay: 1 }}
-      >
-        {STATS.map((item) => (
-          <StatInfoCard key={item.id} count={item.count} label={item.label} />
-        ))}
-      </motion.div> */}
 
        <TimelineSection />
     </section>
