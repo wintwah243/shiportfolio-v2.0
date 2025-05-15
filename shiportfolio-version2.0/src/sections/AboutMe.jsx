@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <motion.section
       id='about'
-      className='container mx-auto px-8 py-16'
+      className='container mx-auto px-8 py-16 mt-20'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
