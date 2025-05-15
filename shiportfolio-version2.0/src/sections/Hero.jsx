@@ -33,7 +33,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            Currently diving deep into React, Tailwind CSS, and Express.js to build full-stack applications.
+            Currently diving deep into React, Typescript, and Express.js to build full-stack applications.
           </motion.p>
 
           <motion.div
@@ -50,14 +50,16 @@ const Hero = () => {
             >
               View My Projects
             </button>
-            <button
-              className='flex-1 md:flex-none action-btn btn-scale-anim'
-              onClick={() => {
-                document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Get to Know Me
+            
+            <button className='flex-1 md:flex-none action-btn btn-scale-anim'>
+              <a
+                href="/resume.pdf"
+                download
+              >
+                Download Resume
+              </a>
             </button>
+            
           </motion.div>
         </motion.div>
 
