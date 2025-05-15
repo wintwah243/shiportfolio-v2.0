@@ -143,7 +143,6 @@ export const SKILLS = [
 ];
 
 export const ABOUT_ME = {
-    content: ` I am a passionate and driven software engineer with experience in web development, focusing on creating dynamic, user-friendly applications and continuously improving my technical skills to solve real-world problems. `,
     socialLinks: [
         { id:"01", label:"Instagram", icon:FaInstagram, link:"https://www.instagram.com/shi1_shi4?igsh=aGczNmNqOGhocjdv&utm_source=qr" },
         { id:"02", label:"GitHub", icon:FaGithub, link:"https://github.com/wintwah243" },
