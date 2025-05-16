@@ -63,7 +63,7 @@ const Bot = () => {
     } catch (error) {
       // Use fallback response when API fails
       setApiFailed(true);
-      updateHistory(`${getRandomFallback()} ${projectInfo}`, true);
+      updateHistory(`${getRandomFallback()} ${MyInfo}`, true);
     }
   };
 
