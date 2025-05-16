@@ -1,7 +1,7 @@
 import React from 'react';
 import LOGO from "../assets/images/LOGO.png";
 import { STATS } from '../utils/data';
-import StatInfoCard from '../components/StatInfoCard';
+import Bot from '../components/Bot';
 import { motion } from 'framer-motion';
 import TimelineSection from '../components/TimelineSection';
 
@@ -74,6 +74,7 @@ const Hero = () => {
       </div>
 
        <TimelineSection />
+       <Bot />
     </section>
   );
 };
