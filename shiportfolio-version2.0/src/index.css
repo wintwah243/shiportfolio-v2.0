@@ -304,7 +304,7 @@ opacity: 1;
     right: 5%;
     bottom: 100px; 
     border-radius: 10px;
-    position: absolute;
+    position: fixed;
     z-index: 1100;
   }
 
@@ -313,6 +313,8 @@ opacity: 1;
     right: 20px;
     height: 45px;
     width: 45px;
+    position: fixed;
+    z-index: 1200;
   }
 
   .chat-body {
