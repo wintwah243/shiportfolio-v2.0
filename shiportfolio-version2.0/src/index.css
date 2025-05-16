@@ -93,7 +93,7 @@
   align-items: center;
   justify-content: center;
   transition: transform 0.2s ease, opacity 0.2s ease;
-  z-index: 9999;  
+  z-index: 1200;  
 }
 
 #chatbot-toggler span{
