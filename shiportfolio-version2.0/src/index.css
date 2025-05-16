@@ -115,6 +115,7 @@ opacity: 1;
 
 .chatbot-popup {
   position: fixed;
+  z-index: 1200;
   opacity: 0;
   pointer-events: none;
   bottom: 90px;
@@ -132,6 +133,8 @@ opacity: 1;
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
+  position: fixed;
+  z-index: 1200;
 }
 
 .chatbot-popup .chat-header{
