@@ -91,7 +91,7 @@ const Bot = () => {
           <div className='message bot-message'>
             <ChatbotIcon />
             <p className='message-text'>
-              Hey there 👋 <br /> How can I help you today?
+              Hey there 👋 <br /> I’m here to help you with fun questions and keep things light and entertaining. What would you like to ask?
             </p>
           </div>
 
