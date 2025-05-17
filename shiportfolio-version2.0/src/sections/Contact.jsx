@@ -51,14 +51,14 @@ const Contact = () => {
       </div>
 
       <div className="bg-white py-16 px-6 md:px-12 text-center">
-      <h2 className="section-title">
-         Reach out to me
+        <h2 className="section-title">
+          Reach out to me
         </h2>
-        <p className="text-gray-700 mb-8 max-w-xl mx-auto">
+        <p className="text-sm text-center mt-4 leading-6">
           Connect with me directly through Telegram or Email for the fastest response.
         </p>
 
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-6">
           <a
             href="https://t.me/shishi_ww"
             target="_blank"
@@ -82,13 +82,29 @@ const Contact = () => {
 
           <a
             href="mailto:wahwint72@gmail.com"
-            className="px-6 py-3 bg-black text-white rounded-md text-sm font-medium hover:bg-gray-900 transition"
+            className="flex items-center justify-center gap-2 px-6 py-3 bg-black text-white rounded-md text-sm font-medium hover:bg-gray-900 transition"
           >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"
+              />
+            </svg>
+
             Get in touch by email
           </a>
-         
+
         </div>
-        </div>
+      </div>
+
 
     </motion.section>
   )
