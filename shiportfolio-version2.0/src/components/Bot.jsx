@@ -18,7 +18,10 @@ const Bot = () => {
   const chatBodyRef = useRef();
 
   // Fallback responses when API fails
-  const fallbackResponses = "I'm sorry, I'm having trouble connecting to my knowledge base right now."
+  const fallbackResponses = [
+    "I'm sorry, I'm having trouble connecting to my knowledge base right now.",
+    "I'm sorry, Error occurs while answering your question."
+  ];
 
   const getRandomFallback = () => {
     return fallbackResponses[Math.floor(Math.random() * fallbackResponses.length)];
