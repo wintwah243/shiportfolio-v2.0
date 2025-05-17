@@ -1,6 +1,7 @@
 export const backupInfo = `
-👋 Hello! I'm Shi. 
-Currently, my chatbot is temporarily unavailable due to exceeding the free tier limit and
-I can't pay bill because I'm broke 😭 , but it will be back soon.
-Thanks for your patience — hope you enjoy your visit!
+👋 Hello! This is not response from AI bot. This is predefined response from shi.
+You get this response for various reasons :
+- your vpn connection
+- network error
+- shi's bot exceeding free tier limit from Google
 `;
