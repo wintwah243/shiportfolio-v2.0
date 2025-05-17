@@ -5,6 +5,7 @@ import ChatbotIcon from './ChatbotIcon';
 import ChatMessage from './ChatMessage';
 import ChatForm from './ChatForm';
 import { MyInfo } from '../utils/MyInfo';
+import { backupInfo } from '../utils/backup';
 
 const Bot = () => {
   const [chatHistory, setChatHistory] = useState([{
@@ -17,12 +18,7 @@ const Bot = () => {
   const chatBodyRef = useRef();
 
   // Fallback responses when API fails
-  const fallbackResponses = [
-    "I'm sorry, I'm having trouble connecting to my knowledge base right now.",
-    "I can't access my full capabilities at the moment, but I can still help with basic questions.",
-    "My AI service seems to be unavailable. Here's what I can tell you from my limited knowledge:",
-    "Connection issue detected. While I work to reconnect, here's some general information:"
-  ];
+  const fallbackResponses = "I'm sorry, I'm having trouble connecting to my knowledge base right now."
 
   const getRandomFallback = () => {
     return fallbackResponses[Math.floor(Math.random() * fallbackResponses.length)];
@@ -35,7 +31,7 @@ const Bot = () => {
 
     // If API previously failed, use fallback immediately
     if (apiFailed) {
-      updateHistory(`${getRandomFallback()} ${projectInfo}`);
+      updateHistory(`${getRandomFallback()} ${backupInfo}`);
       return;
     }
 
@@ -63,7 +59,7 @@ const Bot = () => {
     } catch (error) {
       // Use fallback response when API fails
       setApiFailed(true);
-      updateHistory(`${getRandomFallback()} ${MyInfo}`, true);
+      updateHistory(`${getRandomFallback()} ${backupInfo}`, true);
     }
   };
 
@@ -91,22 +87,15 @@ const Bot = () => {
           <div className='message bot-message'>
             <ChatbotIcon />
             <p className='message-text'>
-              Hey there 👋 <br /> I’m here to help you with fun questions and keep things light and entertaining. What would you like to ask?
+              Hey there 👋 <br /> I’m here to help you with fun questions and keep things light and
+              entertaining. What would you like to ask about 'shi' ?
             </p>
           </div>
 
           {chatHistory.map((chat, index) => (
             <ChatMessage key={index} chat={chat} />
           ))}
-
-          {apiFailed && (
-            <div className='message bot-message warning'>
-              <ChatbotIcon />
-              <p className='message-text'>
-                ⚠️ Note: I'm currently using limited functionality due to service issues.
-              </p>
-            </div>
-          )}
+          
         </div>
 
         <div className='chat-footer'>
