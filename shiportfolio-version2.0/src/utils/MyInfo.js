@@ -4,6 +4,9 @@ export const MyInfo = `
 💡 About Me:
 I'm passionate about coding, design, and self-growth. I love turning ideas into functional, user-friendly experiences. Whether it's building a web app, debugging until 2 AM, or learning a new framework just for fun — I'm always looking for the next challenge.
 
+Current status:
+I'm currenty a fourth year student but I'm looking for intern to improve my skills and experiences.
+
 🔧 Tech Stack:
 - Frontend: React, Typescript, Tailwind CSS, JavaScript
 - Backend: Node.js, Express
