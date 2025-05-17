@@ -23,7 +23,7 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <h4 className='section-title'>Contact</h4>
+          <h4 className='section-title'>Contact Info</h4>
           <p className='text-sm text-center mt-4 leading-6'>
             Feel free to reach out to me for collaboration, project inquiries,
             or just to say hello—I'd love to connect!
@@ -49,6 +49,47 @@ const Contact = () => {
           </motion.div>
         </motion.div>
       </div>
+
+      <div className="bg-white py-16 px-6 md:px-12 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+         Direct Message to Me
+        </h2>
+        <p className="text-gray-700 mb-8 max-w-xl mx-auto">
+          Connect with me directly through Telegram or Email for the fastest response.
+        </p>
+
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
+          <a
+            href="https://t.me/shishi_ww"
+            target="_blank"
+            className="flex items-center justify-center gap-2 px-6 py-3 bg-yellow-300 text-gray-900 rounded-md text-sm font-medium transition dark:bg-indigo-500 dark:text-white"
+          >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.77 9.77 0 01-4.5-1.032L3 20l1.5-4.5A8.94 8.94 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+              />
+            </svg>
+            Connect on Telegram
+          </a>
+
+          <a
+            href="mailto:wahwint72@gmail.com"
+            className="px-6 py-3 bg-black text-white rounded-md text-sm font-medium hover:bg-gray-900 transition"
+          >
+            Get in touch by email
+          </a>
+         
+        </div>
+        </div>
+
     </motion.section>
   )
 }
