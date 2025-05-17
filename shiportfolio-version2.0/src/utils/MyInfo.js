@@ -21,8 +21,8 @@ I believe learning never stops. I love experimenting with new ideas and tech sta
 
 🎉 Just for Fun:
 - ☕ I need at least 2 cups of coffee to start debugging.
-- 📱 I scroll through about 15 TikToks a day (purely for “research,” of course).
-- ⌨️ I once fixed a bug by simply... restarting my laptop (tech magic!).
+- 📱 I scroll through about maybe 500 TikToks a day, LOL.
+- ⌨️ I once fixed a bug by simply sleeping.
 - 🎮 Favorite break: retro-style games or coding-themed memes.
 - 🎧 Coding vibe: lo-fi beats, thunderstorm sounds, and a hint of caffeine.
 - 🐛 Favorite quote: "99 bugs in the code, take one down, patch it around… 127 bugs in the code."
@@ -36,5 +36,5 @@ I believe learning never stops. I love experimenting with new ideas and tech sta
 - GitHub: https://github.com/wintwah243
 - Email: wahwint72@gmail.com
 
-Thanks for stopping by my portfolio — hope you enjoy your visit!
+Thanks for your visit to my portfolio — hope you enjoy your visit!
 `;
