@@ -31,12 +31,13 @@ const Contact = () => {
         </motion.div>
 
         <motion.div
-          className='grid md:gap-16 mt-16'
+          className='grid md:gap-16 mt-10'
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
+          
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -50,10 +51,8 @@ const Contact = () => {
         </motion.div>
       </div>
 
-      <div className="bg-white py-16 px-6 md:px-12 text-center">
-        <h2 className="section-title">
-          Reach out to me
-        </h2>
+      <div className="bg-white py-1 px-6 md:px-12 text-center">
+        
         <p className="text-sm text-center mt-4 leading-6">
           Connect with me directly through Telegram or Email for the fastest response.
         </p>
