@@ -51,8 +51,13 @@ const Contact = () => {
         </motion.div>
       </div>
 
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+      >
       <div className="bg-white py-1 px-6 md:px-12 text-center">
-        
         <p className="text-sm text-center mt-4 leading-6">
           Connect with me directly through Telegram or Email for the fastest response.
         </p>
@@ -100,11 +105,9 @@ const Contact = () => {
 
             Get in touch by email
           </a>
-
         </div>
       </div>
-
-
+      </motion.div>
     </motion.section>
   )
 }
