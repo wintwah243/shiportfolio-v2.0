@@ -63,6 +63,7 @@ const Contact = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-6">
+         {/* Telegram link */}
           <a
             href="https://t.me/shishi_ww"
             target="_blank"
@@ -84,6 +85,7 @@ const Contact = () => {
             Connect on Telegram
           </a>
 
+          {/* Email link */}
           <a
             href="mailto:wahwint72@gmail.com"
             className="flex items-center justify-center gap-2 px-6 py-3 bg-black text-white rounded-md text-sm font-medium hover:bg-gray-900 transition"
@@ -105,6 +107,31 @@ const Contact = () => {
 
             Get in touch by email
           </a>
+
+          {/* LinkTree link */}
+          <a
+              href="https://linktr.ee/shishii24"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 px-6 py-3 bg-yellow-300 text-black rounded-md text-sm font-medium shadow-sm transition"
+            >
+          <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+            >
+           <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6v6m0 0v6m0-6H6m6 0h6"
+             />
+            </svg>
+              Check out my Linktree
+            </a>
+          
         </div>
       </div>
       </motion.div>
