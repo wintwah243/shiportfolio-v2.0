@@ -22,6 +22,7 @@ import {MdGroups3} from "react-icons/md";
 import BudgetBeePJ from "../assets/images/BudgetBeePJ.JPG";
 import mapitopj from "../assets/images/robot.jpg";
 import ktownpj from "../assets/images/ktownpj.jpg";
+import color from "../assets/images/color.jpg";
 
 export const MENU_LINKS = [
     { id:"01", label:"Home", offset:-100, to:"hero" },
@@ -171,6 +172,13 @@ export const PROJECTS = [
     },
     {
         id:3,
+        title:"Color Palette Generator and Dynamic Background",
+        image:color,
+        tags:["React", "CSS"],
+        link:"https://github.com/wintwah243/dynamic-bg-generator"
+    },
+    {
+        id:4,
         title:"K-Town || Full Stack Album Selling Website Using JavaEE",
         image:ktownpj,
         tags:["Java", "MySQL"],
