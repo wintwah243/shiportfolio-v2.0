@@ -57,7 +57,8 @@ const Contact = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-      <div className="bg-white py-1 px-6 md:px-12 text-center">
+      <div className="bg-white py-1 px-6 md:px-12 text-center mt-10">
+        <h4 className='section-title'>Need Fastest Response?</h4>
         <p className="text-sm text-center mt-4 leading-6">
           Connect with me directly through Telegram or Email for the fastest response.
         </p>
