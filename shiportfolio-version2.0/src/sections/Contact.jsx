@@ -114,7 +114,7 @@ const Contact = () => {
               href="https://linktr.ee/shishii24"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 px-6 py-3 bg-yellow-300 text-black rounded-md text-sm font-medium shadow-sm transition"
+              className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-300 text-black rounded-md text-sm font-medium shadow-sm transition"
             >
           <svg
                 xmlns="http://www.w3.org/2000/svg"
