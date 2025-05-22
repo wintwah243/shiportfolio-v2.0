@@ -25,7 +25,7 @@ const Work = () => {
         <div className='bg-yellow-200 p-6 rounded-2xl shadow-md hover:shadow-lg transition'>
           <div className='flex items-center gap-3 mb-2'>
             <Code2 className='text-black' size={24} />
-            <h5 className='text-lg font-semibold text-black'>Full-Stack Web Development</h5>
+            <h5 className='text-lg font-semibold text-black'>Web Development</h5>
           </div>
           <p className='text-sm leading-6 text-justify text-black'>
             I build complete web applications by working on both the frontend and backend. 
