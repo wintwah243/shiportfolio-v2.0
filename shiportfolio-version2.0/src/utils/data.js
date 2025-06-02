@@ -8,7 +8,8 @@ import {
     FaLinkedin,
     FaGithub,
     FaUserTie,
-    FaEnvelope
+    FaEnvelope,
+    FaProjectDiagram
 } from "react-icons/fa";
 import {BiLogoJavascript} from "react-icons/bi";
 import {SiExpress, SiMongodb, SiMysql} from "react-icons/si";
@@ -142,6 +143,14 @@ export const SKILLS = [
         type:"soft-skills",
         description:"I have developed strong leadership by consistently reviewing work for accuracy, ensuring high-quality results, and identifying potential issues before they arise."
     },
+    {
+        id:"13",
+        icon:FaProjectDiagram,
+        skill:"Draw.io",
+        progress: 95,
+        type:"tools",
+        description:"I have experience using draw.io to create clear and organized flowcharts, system diagrams, and efficient project plans and UML modeling."
+    }
 ];
 
 export const ABOUT_ME = {
