@@ -39,7 +39,7 @@ const AboutMe = () => {
             You can call me <span className='text-green-600'>"Shi"</span> — a coffee lover with a passion for coding.
             I describe myself as a person who is always eager to grow and
             explore new things. As a <span className="text-green-600">full-stack developer </span> 
-            and a <span className="text-green-600">global learning enthusiast</span>, 
+            and a <span className="text-green-600">tech enthusiast</span>, 
             I often find myself "productively wasting time" by seeking out opportunities, 
             learning new skills, and challenging myself to improve — because for me, 
             growth never stops.
