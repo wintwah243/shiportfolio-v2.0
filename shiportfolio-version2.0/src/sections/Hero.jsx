@@ -53,10 +53,10 @@ const Hero = () => {
             
             <button className='flex-1 md:flex-none action-btn btn-scale-anim'>
               <a
-                href="/resume.pdf"
+                href="/cvform.pdf"
                 download
               >
-                Download Resume
+                Download CV
               </a>
             </button>
             
