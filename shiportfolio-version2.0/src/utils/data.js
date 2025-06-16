@@ -12,7 +12,7 @@ import {
     FaProjectDiagram
 } from "react-icons/fa";
 import {BiLogoJavascript} from "react-icons/bi";
-import {SiExpress, SiMongodb, SiMysql} from "react-icons/si";
+import {SiExpress, SiMongodb, SiMysql, SiTailwindcss} from "react-icons/si";
 import {
     VscVscode,
     VscCommentUnresolved,
@@ -150,6 +150,14 @@ export const SKILLS = [
         progress: 95,
         type:"tools",
         description:"I have experience using draw.io to create clear and organized flowcharts, system diagrams, and efficient project plans and UML modeling."
+    },
+    {
+          id: "14",
+          icon: SiTailwindcss, 
+          skill: "Tailwind CSS",
+          progress: 95,
+          type: "language",
+          description:"I have experience using Tailwind CSS to rapidly build modern, responsive UIs with utility-first styling, ensuring consistency and speed in development.",
     }
 ];
 
