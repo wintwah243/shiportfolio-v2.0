@@ -12,7 +12,7 @@ import {
     FaProjectDiagram
 } from "react-icons/fa";
 import {BiLogoJavascript} from "react-icons/bi";
-import {SiExpress, SiMongodb, SiMysql, SiTailwindcss} from "react-icons/si";
+import {SiExpress, SiMongodb, SiMysql, SiTailwindcss, SiPostman} from "react-icons/si";
 import {
     VscVscode,
     VscCommentUnresolved,
@@ -158,6 +158,14 @@ export const SKILLS = [
           progress: 95,
           type: "language",
           description:"I have experience using Tailwind CSS to rapidly build modern, responsive UIs with utility-first styling, ensuring consistency and speed in development.",
+    },
+    {
+          id: "15",
+          icon: SiPostman, 
+          skill: "Postman",
+          progress: 85,
+          type: "tools",
+          description:"I regularly use Postman to test APIs, manage requests, and automate backend testing, ensuring the reliability and accuracy of API integrations.",
     }
 ];
 
