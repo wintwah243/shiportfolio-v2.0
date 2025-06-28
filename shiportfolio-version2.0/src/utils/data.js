@@ -214,20 +214,15 @@ export const PROJECTS = [
 
 export const timelineData = [
     {
-      title: "Academic",
-      date: "2022 - Present",
-      description: "Studying Software Engineering at University of Computer Studies, Yangon",
+      title: "Skyscanner Front-End Software Engineering virtual experience programme on Forage",
+      date: "June 2025",
+      description: "Completed a job simulation where I built a web application using React as a front-end engineer at Skyscanner. Developed a page for picking a travel date using Skyscanner’s open-source Backpack React library.",
     },
     {
-      title: "Experience",
-      date: "",
-      description: "Experienced in using programming languages like JavaScript and React to build functional and visually appealing projects.",
+      title: "Nuclear Science Hackathon - HackAtom Myanmar",
+      date: "August 2024",
+      description: "We developed a 4D proposal to build a small modular nuclear power plant in Myanmar, focusing on design, deployment, development, and disaster management."
     },
-    {
-      title: "Future Plan",
-      date: "2025 and beyond",
-      description: "I aim to enhance my technical skills in software development by focusing on building innovative, AI-integrated solutions that make a meaningful impact on the community.",
-    },
-  ];
+];
 
 
