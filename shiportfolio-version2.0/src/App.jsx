@@ -6,10 +6,12 @@ import AboutMe from './sections/AboutMe'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Work from './sections/Work'
+import SprinkleCursor from './utils/SprinkleCursor'
 
 const App = () => {
   return (
-    <div className='mb-80'>
+    <div id='portfolio-wall' className='mb-80'>
+      <SprinkleCursor />
         <Navbar />
         <Hero />
         <AboutMe />
