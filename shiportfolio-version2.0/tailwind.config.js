@@ -1,16 +1,19 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  darkMode: 'class', 
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}', 
   ],
   theme: {
     extend: {
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+      keyframes: {
+        sprinkleFade: {
+          '0%': { transform: 'translate(-50%, -50%) scale(1)', opacity: '0.8' },
+          '100%': { transform: 'translate(-50%, -50%) scale(2)', opacity: '0' },
+        },
+      },
+      animation: {
+        sprinkleFade: 'sprinkleFade 0.6s ease-out forwards',
       },
     },
   },
   plugins: [],
-}
+};
