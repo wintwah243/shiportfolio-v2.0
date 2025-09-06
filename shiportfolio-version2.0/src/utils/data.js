@@ -223,6 +223,11 @@ export const timelineData = [
       date: "August 2024",
       description: "We developed a 4D proposal to build a small modular nuclear power plant in Myanmar, focusing on design, deployment, development, and disaster management."
     },
+    {
+      title: "UCSY Product Show and Job Fair 2025",
+      date: "September 2025",
+      description: "After completing two selection stages, my project Mapito was awarded a consolation prize among 60 project groups."
+    }
 ];
 
 
