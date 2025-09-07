@@ -10,6 +10,8 @@ This is my second version of my personal developer portfolio website. This portf
 - Detailed sections about me, my technical skills, and experiences
 - Project showcases with links to GitHub repos
 - CV download and contact info
+- Chatbot to ask about me :) (Just for fun)
+- Sprinkle effect when moving the cursor
 
 ---
 
