@@ -26,6 +26,7 @@ import ktownpj from "../assets/images/ktownpj.jpg";
 import color from "../assets/images/color.jpg";
 import insideout from "../assets/images/insideout.jpg";
 import community from "../assets/images/community.jpg";
+import portfolio from "../assets/images/ABOUTMELOGO.png";
 
 export const MENU_LINKS = [
     { id:"01", label:"Home", offset:-100, to:"hero" },
@@ -205,7 +206,7 @@ export const PROJECTS = [
     {
         id:4,
         title:"Community Involvement Guidance",
-        image:mapitopj,
+        image:community,
         tags:["Jupyter Notebook", "Model Train"],
         link:"https://github.com/wintwah243/community_involvement_guidance",
         type: "Artficial Intelligence"
@@ -213,7 +214,7 @@ export const PROJECTS = [
     {
         id:5,
         title:"My Developer Portfolio Website",
-        image:mapitopj,
+        image:portfolio,
         tags:["React", "TailwindCss"],
         link:"https://github.com/wintwah243/shiportfolio-v2.0",
         type: "Frontend"
