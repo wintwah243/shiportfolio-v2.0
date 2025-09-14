@@ -11,7 +11,7 @@ const ProjectCard = ({imgUrl, title, tags, link}) => {
                 {tags.map((tag,index) => (
                     <span
                         key={index}
-                        className='text-xs text-gray-400 px-3 py-1'
+                        className='text-xs text-yellow-700 px-3 py-1 bg-yellow-100 rounded-full'
                     >
                         {tag}
                     </span>
