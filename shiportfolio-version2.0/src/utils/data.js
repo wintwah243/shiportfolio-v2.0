@@ -185,7 +185,7 @@ export const PROJECTS = [
         image:insideout,
         tags:["Python", "Streamlit", "PowerBI", "Weka"],
         link:"https://github.com/wintwah243/text-driven-emotion-detection",
-        type: "Data Mining Project"
+        type: "Data Mining"
     },
     {
         id:2,
@@ -209,7 +209,7 @@ export const PROJECTS = [
         image:community,
         tags:["Jupyter Notebook", "Model Train"],
         link:"https://github.com/wintwah243/community_involvement_guidance",
-        type: "Artficial Intelligence"
+        type: "AI project"
     },
     {
         id:5,
