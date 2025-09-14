@@ -24,6 +24,7 @@ import BudgetBeePJ from "../assets/images/BudgetBeePJ.JPG";
 import mapitopj from "../assets/images/robot.jpg";
 import ktownpj from "../assets/images/ktownpj.jpg";
 import color from "../assets/images/color.jpg";
+import insideout from "../assets/images/insideout.jpg";
 
 export const MENU_LINKS = [
     { id:"01", label:"Home", offset:-100, to:"hero" },
@@ -184,27 +185,34 @@ export const ABOUT_ME = {
 export const PROJECTS = [
     {
         id:1,
+        title:"Text-driven Emotion Classification",
+        image:insideout,
+        tags:["Python", "Streamlit", "PowerBI", "Weka"],
+        link:"https://github.com/wintwah243/text-driven-emotion-detection"
+    },
+    {
+        id:2,
         title:"BudgetBee || Full Stack Budget Tracking Project Using MERN",
         image:BudgetBeePJ,
         tags:["React", "Express", "MongoDB", "Node"],
         link:"https://github.com/wintwah243/BudgetBee"
     },
     {
-        id:2,
+        id:3,
         title:"Mapito || AI-powered Practicing Platform for Developer",
         image:mapitopj,
         tags:["React", "Express", "MongoDB", "GEMINI"],
         link:"https://github.com/wintwah243/Mapito"
     },
     {
-        id:3,
+        id:4,
         title:"Color Palette Generator and Dynamic Background",
         image:color,
         tags:["React", "CSS"],
         link:"https://github.com/wintwah243/dynamic-bg-generator"
     },
     {
-        id:4,
+        id:5,
         title:"K-Town || Full Stack Album Selling Website Using JavaEE",
         image:ktownpj,
         tags:["Java", "MySQL"],
