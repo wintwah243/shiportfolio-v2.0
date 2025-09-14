@@ -25,6 +25,7 @@ import mapitopj from "../assets/images/robot.jpg";
 import ktownpj from "../assets/images/ktownpj.jpg";
 import color from "../assets/images/color.jpg";
 import insideout from "../assets/images/insideout.jpg";
+import community from "../assets/images/community.jpg";
 
 export const MENU_LINKS = [
     { id:"01", label:"Home", offset:-100, to:"hero" },
@@ -33,12 +34,6 @@ export const MENU_LINKS = [
     { id:"04", label:"Work", offset:-80, to:"work" },
     { id:"05", label:"Projects", offset:-80, to:"projects" },
     { id:"06", label:"Contact", offset:-80, to:"contact" },
-];
-
-export const STATS = [
-    { id: "01", count: "10+", label: "Skills \nAcquired" },
-    { id: "02", count: "10+", label: `UI Components \nDesigned` },
-    { id:"03", count:"10+", label:`Projects \nCompleted` },
 ];
 
 export const SKILL_TABS = [
@@ -188,35 +183,56 @@ export const PROJECTS = [
         title:"Text-driven Emotion Classification",
         image:insideout,
         tags:["Python", "Streamlit", "PowerBI", "Weka"],
-        link:"https://github.com/wintwah243/text-driven-emotion-detection"
+        link:"https://github.com/wintwah243/text-driven-emotion-detection",
+        type: "Data Mining Project"
     },
     {
         id:2,
-        title:"BudgetBee || Full Stack Budget Tracking Project Using MERN",
+        title:"BudgetBee || Budget Tracking Project",
         image:BudgetBeePJ,
         tags:["React", "Express", "MongoDB", "Node"],
-        link:"https://github.com/wintwah243/BudgetBee"
+        link:"https://github.com/wintwah243/BudgetBee",
+        type: "Full Stack"
     },
     {
         id:3,
         title:"Mapito || AI-powered Practicing Platform for Developer",
         image:mapitopj,
         tags:["React", "Express", "MongoDB", "GEMINI"],
-        link:"https://github.com/wintwah243/Mapito"
+        link:"https://github.com/wintwah243/Mapito",
+        type: "Full Stack"
     },
     {
         id:4,
-        title:"Color Palette Generator and Dynamic Background",
-        image:color,
-        tags:["React", "CSS"],
-        link:"https://github.com/wintwah243/dynamic-bg-generator"
+        title:"Community Involvement Guidance",
+        image:mapitopj,
+        tags:["Jupyter Notebook", "Model Train"],
+        link:"https://github.com/wintwah243/community_involvement_guidance",
+        type: "Artficial Intelligence"
     },
     {
         id:5,
+        title:"My Developer Portfolio Website",
+        image:mapitopj,
+        tags:["React", "TailwindCss"],
+        link:"https://github.com/wintwah243/shiportfolio-v2.0",
+        type: "Frontend"
+    },
+    {
+        id:6,
+        title:"Color Palette Generator and Dynamic Background",
+        image:color,
+        tags:["React", "CSS"],
+        link:"https://github.com/wintwah243/dynamic-bg-generator",
+        type: "Frontend"
+    },
+    {
+        id:7,
         title:"K-Town || Full Stack Album Selling Website Using JavaEE",
         image:ktownpj,
         tags:["Java", "MySQL"],
-        link:"https://github.com/wintwah243/Album-Selling-Website-Full-Stack-Project"
+        link:"https://github.com/wintwah243/Album-Selling-Website-Full-Stack-Project",
+        type: "Full Stack"
     }
 ];
 
