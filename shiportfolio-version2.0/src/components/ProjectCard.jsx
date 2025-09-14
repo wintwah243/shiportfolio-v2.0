@@ -33,11 +33,9 @@ const ProjectCard = ({imgUrl, title, tags, link, type}) => {
                             <FaGithub className='ml-2 mt-1' />
                         </button>
                     </a>
-                    <a href={link} target="_blank" rel="noopener noreferrer" className='cursor-pointer group'>
-                        <button className='flex mt-4 text-blue-700 bg-blue-100 border py-2 px-2 rounded-lg'>
-                            {type}
-                        </button>
-                    </a>
+                    <button className='flex mt-4 text-blue-700 bg-blue-100 border py-2 px-2 rounded-lg'>
+                        {type}
+                    </button>
                 </div>
         </div>
     </div>
