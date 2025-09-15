@@ -185,7 +185,7 @@ export const PROJECTS = [
         image:insideout,
         tags:["Python", "Streamlit", "PowerBI", "Weka"],
         link:"https://github.com/wintwah243/text-driven-emotion-detection",
-        type: "Data Mining"
+        type: "AI project"
     },
     {
         id:2,
