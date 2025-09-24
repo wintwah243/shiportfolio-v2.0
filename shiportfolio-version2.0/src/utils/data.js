@@ -229,9 +229,9 @@ export const PROJECTS = [
     },
     {
         id:7,
-        title:"K-Town || Full Stack Album Selling Website Using JavaEE",
+        title:"K-Town || Full Stack Album Selling Website",
         image:ktownpj,
-        tags:["Java", "MySQL"],
+        tags:["JavaEE", "JSP", "MySQL"],
         link:"https://github.com/wintwah243/Album-Selling-Website-Full-Stack-Project",
         type: "Full Stack"
     }
