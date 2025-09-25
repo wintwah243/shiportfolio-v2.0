@@ -229,7 +229,7 @@ export const PROJECTS = [
     },
     {
         id:7,
-        title:"K-Town || Full Stack Album Selling Website",
+        title:"K-Town || Album Shopping Website",
         image:ktownpj,
         tags:["JavaEE", "JSP", "MySQL"],
         link:"https://github.com/wintwah243/Album-Selling-Website-Full-Stack-Project",
@@ -244,7 +244,7 @@ export const timelineData = [
       description: "Completed a job simulation where I built a web application using React as a front-end engineer at Skyscanner. Developed a page for picking a travel date using Skyscanner’s open-source Backpack React library.",
     },
     {
-      title: "Nuclear Science Hackathon - HackAtom Myanmar",
+      title: "Nuclear Science Hackathon - HackAtom Myanmar 2024",
       date: "August 2024",
       description: "We developed a 4D proposal to build a small modular nuclear power plant in Myanmar, focusing on design, deployment, development, and disaster management."
     },
