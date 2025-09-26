@@ -68,7 +68,7 @@ const Contact = () => {
           <a
             href="https://t.me/shishi_ww"
             target="_blank"
-            className="flex items-center justify-center gap-2 px-6 py-3 bg-yellow-300 text-gray-900 rounded-md text-sm font-medium transition dark:bg-indigo-500 dark:text-white"
+            className="flex items-center justify-center gap-2 px-6 py-3 bg-yellow-300 text-gray-900 rounded-md text-sm font-medium transition"
           >
             <svg
               className="w-5 h-5"
@@ -110,7 +110,7 @@ const Contact = () => {
           </a>
 
           {/* LinkTree link */}
-          <a
+          {/* <a
               href="https://linktr.ee/shishii24"
               target="_blank"
               rel="noopener noreferrer"
@@ -131,7 +131,7 @@ const Contact = () => {
              />
             </svg>
               Check out my Linktree
-            </a>
+            </a> */}
           
         </div>
       </div>
