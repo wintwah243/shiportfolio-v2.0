@@ -169,7 +169,7 @@ export const SKILLS = [
           icon: SiFastapi,
           skill: "FastAPI",
           progress: 90,
-          type: "backend",
+          type: "language",
           description: "I use FastAPI to build high-performance backend APIs with Python. Its simplicity and speed help me develop and test endpoints efficiently while maintaining clean and scalable code.",
     }
 ];
