@@ -12,7 +12,7 @@ import {
     FaProjectDiagram
 } from "react-icons/fa";
 import {BiLogoJavascript} from "react-icons/bi";
-import {SiExpress, SiMongodb, SiMysql, SiTailwindcss, SiPostman} from "react-icons/si";
+import {SiExpress, SiMongodb, SiMysql, SiTailwindcss, SiPostman, SiFastapi} from "react-icons/si";
 import {
     VscVscode,
     VscCommentUnresolved,
@@ -163,6 +163,14 @@ export const SKILLS = [
           progress: 85,
           type: "tools",
           description:"I regularly use Postman to test APIs, manage requests, and automate backend testing, ensuring the reliability and accuracy of API integrations.",
+    },
+    {
+          id: "16",
+          icon: SiFastapi,
+          skill: "FastAPI",
+          progress: 90,
+          type: "backend",
+          description: "I use FastAPI to build high-performance backend APIs with Python. Its simplicity and speed help me develop and test endpoints efficiently while maintaining clean and scalable code.",
     }
 ];
 
