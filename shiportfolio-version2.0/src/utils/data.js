@@ -247,9 +247,9 @@ export const PROJECTS = [
 
 export const timelineData = [
     {
-      title: "Skyscanner Front-End Software Engineering virtual experience programme on Forage",
-      date: "June 2025",
-      description: "Completed a job simulation where I built a web application using React as a front-end engineer at Skyscanner. Developed a page for picking a travel date using Skyscanner’s open-source Backpack React library.",
+      title: "Venture Base Hackathon 2025",
+      date: "October 2025",
+      description: "Participated in the Venture Base Hackathon 2025 and won the First Runner-Up prize. Developed 'WolfEye+', an innovative web application featuring face recognition and PPE detection.",
     },
     {
       title: "Nuclear Science Hackathon - HackAtom Myanmar 2024",
