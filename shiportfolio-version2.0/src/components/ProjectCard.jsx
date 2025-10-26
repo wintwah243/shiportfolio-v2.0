@@ -29,7 +29,7 @@ const ProjectCard = ({imgUrl, title, tags, link, type}) => {
           <div className='flex gap-2'>
                     <a href={link} target="_blank" rel="noopener noreferrer" className='cursor-pointer group'>
                         <button className='flex mt-4 text-gray-900 bg-gray-100 border py-2 px-2 rounded-lg'>
-                            Source code
+                            GitHub
                             <FaGithub className='ml-2 mt-1' />
                         </button>
                     </a>
