@@ -210,7 +210,7 @@ export const PROJECTS = [
         image:wolf,
         tags:["React", "FastAPI", "MongoDB", "YOLO"],
         link:"https://github.com/wintwah243/wolfeye_Plus",
-        type: "Full Stack"
+        type: "Community Support"
     },
     {
         id:4,
@@ -226,7 +226,7 @@ export const PROJECTS = [
         image:community,
         tags:["Jupyter Notebook", "Model Train"],
         link:"https://github.com/wintwah243/community_involvement_guidance",
-        type: "AI project"
+        type: "Community Support"
     },
     {
         id:6,
