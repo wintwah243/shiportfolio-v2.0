@@ -24,7 +24,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            a passionate software engineering student crafting beautiful and functional web experiences.
+           a software engineering student passionate about using technology to build community-support projects.
           </motion.h1>
 
           <motion.p
@@ -33,7 +33,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            Currently diving deep into React, Typescript, and Express.js to build full-stack applications.
+            Currently diving deep into React, Typescript, and Express.js to build full-stack applications that solve real-world problems.
           </motion.p>
 
           <motion.div
