@@ -28,6 +28,18 @@ import insideout from "../assets/images/insideout.jpg";
 import community from "../assets/images/community.jpg";
 import portfolio from "../assets/images/ABOUTMELOGO.png";
 import wolf from "../assets/images/wolf.jpg";
+import Talkwithme from "../assets/images/Twm.JPG";
+import Talkwithme_mail from "../assets/images/twm-mail.jpg";
+import hackatom1 from "../assets/images/hackatom1.jpg"
+import hackatom2 from "../assets/images/hackatom2.JPG"
+import hackatom3 from "../assets/images/HackAtom.jpg"
+import vb1 from "../assets/images/vb1.JPG"
+import vb2 from "../assets/images/vb2.JPG"
+import vb3 from "../assets/images/vb3.JPG"
+import vb4 from "../assets/images/vb4.JPG"
+import vb5 from "../assets/images/vb5.JPG"
+import vb6 from "../assets/images/vb6.JPG"
+import vb_certificate from "../assets/images/vb-certificate.jpg"
 
 export const MENU_LINKS = [
     { id:"01", label:"Home", offset:-100, to:"hero" },
@@ -270,6 +282,33 @@ export const timelineData = [
       date: "September 2025",
       description: "After completing two selection stages, my project Mapito was awarded a consolation prize among 60 project groups."
     }
+];
+
+export const COMMUNITY_WORK = [
+  {
+    id: 1,
+    title: 'With Me Organization',
+    images: [
+      Talkwithme,
+      Talkwithme_mail,
+    ],
+    description:
+      'As a volunteer in the Talk With Me department, I help organize mental health awareness sessions and connect young people across Myanmar. I also contribute to online campaigns that promote emotional well-being and open conversations within the community.',
+  },
+  {
+    id: 2,
+    title: 'HackAtom Myanmar 2024',
+    images: [hackatom1, hackatom2, hackatom3],
+    description:
+      'Participated in the HackAtom innovation event (Nuclear Science Hackathon), collaborating with diverse teams to solve energy-related problems using technology. This experience strengthened my teamwork, leadership, and ability to apply technical knowledge to create social impact by contributing solutions aimed at reducing electricity shortages in my country.',
+  },
+  {
+    id: 3,
+    title: 'Venture Base Hackathon 2025',
+    images: [vb1, vb2, vb3, vb4, vb5, vb6, vb_certificate],
+    description:
+      'Won First Runner-Up at Venture Base Hackathon 2025. Our project — WolfEye+ (PPE Detection and Face Recognition System) — was designed to promote workplace safety through AI innovation. The idea came from a simple belief: technology should protect people. By automating safety monitoring in industrial sites, we aim to reduce accidents and support a culture of responsibility and care in every workplace. Safe today, Strong tomorrow. This project reflects our commitment to community-focused innovation, contributing to Sustainable Development Goal by fostering safer, more resilient industries.',
+  },
 ];
 
 
