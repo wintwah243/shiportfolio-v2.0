@@ -19,7 +19,7 @@ const CommunityCard = ({ work, isExpanded, toggleExpand }) => {
   return (
     <motion.div
       key={work.id}
-      className='bg-white dark:bg-gray-800 shadow-md rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-300'
+      className='bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-300'
       initial={{ opacity: 0, scale: 0.95 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
@@ -40,30 +40,30 @@ const CommunityCard = ({ work, isExpanded, toggleExpand }) => {
           </div>
         </div>
         <button
-          className='absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-100/70 dark:bg-gray-700/70 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600'
+          className='absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-100/70 p-1 rounded-full hover:bg-gray-200'
           onClick={scrollPrev}
         >
-          <IoIosArrowBack className='text-gray-800 dark:text-gray-200' />
+          <IoIosArrowBack className='text-gray-800' />
         </button>
         <button
-          className='absolute right-3 top-1/2 transform -translate-y-1/2 bg-gray-100/70 dark:bg-gray-700/70 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600'
+          className='absolute right-3 top-1/2 transform -translate-y-1/2 bg-gray-100/70 p-1 rounded-full hover:bg-gray-200'
           onClick={scrollNext}
         >
-          <IoIosArrowForward className='text-gray-800 dark:text-gray-200' />
+          <IoIosArrowForward className='text-gray-800' />
         </button>
       </div>
 
       {/* Description section */}
       <div className='p-5'>
-        <h3 className='text-lg font-semibold text-gray-800 dark:text-gray-100 mb-2'>
+        <h3 className='text-lg font-semibold text-gray-800 mb-2'>
           {work.title}
         </h3>
-        <p className='text-sm text-gray-600 dark:text-gray-300'>
+        <p className='text-sm text-gray-600'>
           {isExpanded ? work.description : `${shortText}...`}
         </p>
         <button
           onClick={() => toggleExpand(work.id)}
-          className='mt-3 text-green-600 dark:text-indigo-400 text-sm font-medium hover:underline'
+          className='mt-3 text-green-600 text-sm font-medium hover:underline'
         >
           {isExpanded ? 'See Less' : 'See More'}
         </button>
