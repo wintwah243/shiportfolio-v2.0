@@ -7,6 +7,7 @@ import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Work from './sections/Work'
 import SprinkleCursor from './utils/SprinkleCursor'
+import Community from './sections/Community'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Hero />
         <AboutMe />
         <Tech />
+       <Community />
         <Work />
         <Projects />
         <Contact />
