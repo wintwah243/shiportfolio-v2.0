@@ -5,7 +5,7 @@ import { timelineData } from '../utils/data';
 const TimelineSection = () => {
   return (
     <div className="mt-20 space-y-12">
-      <h2 className="text-2xl font-bold text-center text-gray-800">Experience</h2>
+      <h2 className="text-2xl font-bold text-center text-gray-800">Achievement</h2>
       <div className="relative border-l-4 border-yellow-300 pl-10 ml-4">
        {/* use map method to display all timeline data from utils */}
         {timelineData.map((item, index) => (
