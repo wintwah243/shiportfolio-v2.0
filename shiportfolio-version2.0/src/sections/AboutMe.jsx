@@ -36,13 +36,12 @@ const AboutMe = () => {
           <h4 className='hidden lg:block w-[200px] section-title text-left'>About Me</h4>
           
           <p className='text-sm text-justify leading-6 whitespace-pre-line mt-4'>
-            You can call me <span className='text-green-600'>"Shi"</span> — a coffee lover with a passion for coding.
-            I describe myself as a person who is always eager to grow and
-            explore new things. As a <span className="text-green-600">web developer </span> 
-            and a <span className="text-green-600">tech enthusiast</span>, 
-            I often find myself "productively wasting time" by seeking out opportunities, 
-            learning new skills, and challenging myself to improve — because for me, 
-            growth never stops.
+            You can call me <span className='text-green-600 dark:text-indigo-500'>"Shi"</span> — a coffee lover with a passion for technology and community supporting works.
+            I describe myself as someone who is always eager to grow, connect, and explore new opportunities that help me improve.
+            As a <span className="text-green-600 dark:text-indigo-500">web developer</span> and <span className="text-green-600 dark:text-indigo-500">community enthusiast</span>,
+            I love using technology to create meaningful projects that help people and make a positive impact on the community.
+            I often find myself "productively wasting time" by learning new skills, discovering opportunities,
+            and challenging myself to improve — because for me, growth and impact never stop.
           </p>
 
           <div className='flex gap-4 mt-6'>
