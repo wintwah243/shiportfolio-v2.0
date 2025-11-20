@@ -268,6 +268,11 @@ export const PROJECTS = [
 
 export const timelineData = [
     {
+      title: "Code2Career Hackathon 2025",
+      date: "November 2025",
+      description: "Participated in the Code2Career Hackathon 2025 and won the First Runner-Up prize. Developed 'FloodSync', a mobile app designed to support communities during flood disasters by providing real-time information, risk alerts, and emergency coordination tools.",
+    },
+    {
       title: "Venture Base Hackathon 2025",
       date: "October 2025",
       description: "Participated in the Venture Base Hackathon 2025 and won the First Runner-Up prize. Developed 'WolfEye+', an innovative web application featuring face recognition and PPE detection.",
