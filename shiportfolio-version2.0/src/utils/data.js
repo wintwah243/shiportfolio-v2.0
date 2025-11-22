@@ -40,6 +40,7 @@ import vb4 from "../assets/images/vb4.JPG"
 import vb5 from "../assets/images/vb5.JPG"
 import vb6 from "../assets/images/vb6.JPG"
 import vb_certificate from "../assets/images/vb-certificate.jpg"
+import floodsync from "../assets/images/floodsync.PNG"
 
 export const MENU_LINKS = [
     { id:"01", label:"Home", offset:-100, to:"hero" },
@@ -210,6 +211,14 @@ export const PROJECTS = [
     },
     {
         id:2,
+        title:"FloodSync Frontend",
+        image:floodsync,
+        tags:["ReactNative", "Expo", "Gluestack", "Zustand"],
+        link:"https://github.com/wintwah243/floodsync-frontend",
+        type: "Community Support"
+    },
+    {
+        id:3,
         title:"BudgetBee || Budget Tracking Project",
         image:BudgetBeePJ,
         tags:["React", "Express", "MongoDB", "Node"],
@@ -217,7 +226,7 @@ export const PROJECTS = [
         type: "Full Stack"
     },
     {
-        id:3,
+        id:4,
         title:"WolfEye+",
         image:wolf,
         tags:["React", "FastAPI", "MongoDB", "YOLO"],
@@ -225,7 +234,7 @@ export const PROJECTS = [
         type: "Community Support"
     },
     {
-        id:4,
+        id:5,
         title:"Mapito || AI-powered Practicing Platform for Developer",
         image:mapitopj,
         tags:["React", "Express", "MongoDB", "GEMINI"],
@@ -233,7 +242,7 @@ export const PROJECTS = [
         type: "Full Stack"
     },
     {
-        id:5,
+        id:6,
         title:"Community Involvement Guidance",
         image:community,
         tags:["Jupyter Notebook", "Model Train"],
@@ -241,7 +250,7 @@ export const PROJECTS = [
         type: "Community Support"
     },
     {
-        id:6,
+        id:7,
         title:"My Developer Portfolio Website",
         image:portfolio,
         tags:["React", "TailwindCss"],
@@ -249,7 +258,7 @@ export const PROJECTS = [
         type: "Frontend"
     },
     {
-        id:7,
+        id:8,
         title:"Color Palette Generator and Dynamic Background",
         image:color,
         tags:["React", "CSS"],
@@ -257,7 +266,7 @@ export const PROJECTS = [
         type: "Frontend"
     },
     {
-        id:8,
+        id:9,
         title:"K-Town || Album Shopping Website",
         image:ktownpj,
         tags:["JavaEE", "JSP", "MySQL"],
