@@ -47,9 +47,8 @@ const Tech = () => {
           onChange={handleTabValueChange}
         />
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 min-h-[430px]'>
-        {/* use map method to display tab data which is from handleTabValueChange event handler  */}
-          {tabData.map((skill, index) => (  
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-10'>
+          {tabData.map((skill, index) => (
             <motion.div
               key={skill.id}
               initial={{ opacity: 0, y: 20 }}
