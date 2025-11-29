@@ -11,7 +11,7 @@ const SkillCard = ({ icon, skillName, progress }) => {
 
         {/* Skill info and progress bar */}
         <div className="flex-1">
-          <div className="flex items-center justify-between mb-1">
+          <div className="flex items-center justify-between mb-3">
             <p className="text-sm font-medium text-gray-800">{skillName}</p>
             <p className="text-xs text-gray-500">{progress}%</p>
           </div>
