@@ -62,7 +62,7 @@ export const SKILLS = [
         id:"01",
         icon:FaReact,
         skill:"React JS",
-        progress: 95,
+        progress: 80,
         type:"language",
         description:"I have hands-on experience with React.js, building dynamic and responsive user interfaces using components, hooks, and state management."
     },
@@ -70,7 +70,7 @@ export const SKILLS = [
         id:"02",
         icon:BiLogoJavascript,
         skill:"JavaScript",
-        progress: 95,
+        progress: 80,
         type:"language",
         description:"I have experience using JavaScript to add interactivity and functionality to web applications, including DOM manipulation, event handling, and API integration."
     },
@@ -78,7 +78,7 @@ export const SKILLS = [
         id:"03",
         icon:FaNodeJs,
         skill:"Node.js",
-        progress: 95,
+        progress: 70,
         type:"language",
         description:"I have experience using Node.js to build backend services and APIs, handling server-side logic, routing, and database integration."
     },
@@ -86,7 +86,7 @@ export const SKILLS = [
         id:"04",
         icon:SiExpress,
         skill:"Express.js",
-        progress: 95,
+        progress: 70,
         type:"language",
         description:"I have experience using Express.js to create efficient and scalable RESTful APIs, manage routes, and handle middleware in Node.js applications."
     },
@@ -94,7 +94,7 @@ export const SKILLS = [
         id:"05",
         icon:SiMongodb,
         skill:"MongoDB",
-        progress: 95,
+        progress: 65,
         type:"language",
         description:"I have experience using MongoDB to design and manage NoSQL databases, perform CRUD operations, and integrate data storage with backend applications."
     },
@@ -102,7 +102,7 @@ export const SKILLS = [
         id:"06",
         icon:SiMysql,
         skill:"MySQL",
-        progress: 95,
+        progress: 75,
         type:"language",
         description:"I have experience using MySQL to design relational databases, write SQL queries, and manage data for backend applications with structured schemas."
     },
@@ -110,7 +110,7 @@ export const SKILLS = [
         id:"07",
         icon:FaFigma,
         skill:"Figma",
-        progress: 95,
+        progress: 55,
         type:"tools",
         description:"I have experience using Figma to design user interfaces, create interactive prototypes, and collaborate with teams on visual design projects."
     },
@@ -126,7 +126,7 @@ export const SKILLS = [
         id:"09",
         icon:FaGitAlt,
         skill:"Git & GitHub",
-        progress: 95,
+        progress: 75,
         type:"tools",
         description:"I have experience using Git and GitHub for version control, collaborating on projects, managing repositories, and tracking changes through commits and branches."
     },
@@ -142,7 +142,7 @@ export const SKILLS = [
         id:"11",
         icon:MdGroups3,
         skill:"Teamwork",
-        progress: 95,
+        progress: 75,
         type:"soft-skills",
         description:"I have experience working in teams, collaborating effectively, listening to diverse perspectives, and contributing to group goals to achieve successful outcomes."
     },
@@ -150,7 +150,7 @@ export const SKILLS = [
         id:"12",
         icon:FaUserTie,
         skill:"Leadership",
-        progress: 95,
+        progress: 75,
         type:"soft-skills",
         description:"I have developed strong leadership by consistently reviewing work for accuracy, ensuring high-quality results, and identifying potential issues before they arise."
     },
@@ -158,7 +158,7 @@ export const SKILLS = [
         id:"13",
         icon:FaProjectDiagram,
         skill:"Draw.io",
-        progress: 95,
+        progress: 75,
         type:"tools",
         description:"I have experience using draw.io to create clear and organized flowcharts, system diagrams, and efficient project plans and UML modeling."
     },
@@ -166,7 +166,7 @@ export const SKILLS = [
           id: "14",
           icon: SiTailwindcss, 
           skill: "Tailwind CSS",
-          progress: 95,
+          progress: 65,
           type: "language",
           description:"I have experience using Tailwind CSS to rapidly build modern, responsive UIs with utility-first styling, ensuring consistency and speed in development.",
     },
@@ -174,7 +174,7 @@ export const SKILLS = [
           id: "15",
           icon: SiPostman, 
           skill: "Postman",
-          progress: 85,
+          progress: 65,
           type: "tools",
           description:"I regularly use Postman to test APIs, manage requests, and automate backend testing, ensuring the reliability and accuracy of API integrations.",
     },
@@ -182,7 +182,7 @@ export const SKILLS = [
           id: "16",
           icon: SiFastapi,
           skill: "FastAPI",
-          progress: 90,
+          progress: 50,
           type: "language",
           description: "I use FastAPI to build high-performance backend APIs with Python. Its simplicity and speed help me develop and test endpoints efficiently while maintaining clean and scalable code.",
     }
