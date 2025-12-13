@@ -61,12 +61,12 @@ const AboutMe = () => {
 
           <p className='text-sm text-justify leading-6 whitespace-pre-line mt-4'>
             You can call me{' '}
-            <span className='text-green-600 dark:text-indigo-500'>"Shi"</span> — a coffee lover with a passion for technology and community supporting works.
+            <span className='text-green-600'>"Shi"</span> — a coffee lover with a passion for technology and community supporting works.
             I describe myself as someone who is always eager to grow, connect, and explore new opportunities that help me improve.
             As a{' '}
-            <span className='text-green-600 dark:text-indigo-500'>web developer</span>{' '}
+            <span className='text-green-600'>web developer</span>{' '}
             and{' '}
-            <span className='text-green-600 dark:text-indigo-500'>community enthusiast</span>,
+            <span className='text-green-600'>community enthusiast</span>,
             I love using technology to create meaningful projects that help people and make a positive impact on the community.
             I often find myself "productively wasting time" by learning new skills, discovering opportunities,
             and challenging myself to improve — because for me, growth and impact never stop.
