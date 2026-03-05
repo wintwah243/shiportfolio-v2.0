@@ -41,6 +41,7 @@ import vb5 from "../assets/images/vb5.JPG"
 import vb6 from "../assets/images/vb6.JPG"
 import vb_certificate from "../assets/images/vb-certificate.jpg"
 import floodsync from "../assets/images/floodsync.PNG"
+import dailysuite from "../assets/images/dailysuite.png"
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -251,6 +252,14 @@ export const PROJECTS = [
     },
     {
         id: 6,
+        title: "DailySuite",
+        image: dailysuite,
+        tags: ["Django", "TailwindCSS", "GROQ AI"],
+        link: "https://github.com/wintwah243/dailysuite",
+        type: "Full Stack"
+    },
+    {
+        id: 7,
         title: "Community Involvement Guidance",
         image: community,
         tags: ["Jupyter Notebook", "Model Train"],
@@ -258,7 +267,7 @@ export const PROJECTS = [
         type: "Community Support"
     },
     {
-        id: 7,
+        id: 8,
         title: "My Developer Portfolio Website",
         image: portfolio,
         tags: ["React", "TailwindCss"],
@@ -266,7 +275,7 @@ export const PROJECTS = [
         type: "Frontend"
     },
     {
-        id: 8,
+        id: 9,
         title: "Color Palette Generator and Dynamic Background",
         image: color,
         tags: ["React", "CSS"],
@@ -274,7 +283,7 @@ export const PROJECTS = [
         type: "Frontend"
     },
     {
-        id: 9,
+        id: 10,
         title: "K-Town || Album Shopping Website",
         image: ktownpj,
         tags: ["JavaEE", "JSP", "MySQL"],
