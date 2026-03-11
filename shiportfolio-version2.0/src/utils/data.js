@@ -23,7 +23,6 @@ import { MdGroups3 } from "react-icons/md";
 import BudgetBeePJ from "../assets/images/BudgetBeePJ.JPG";
 import mapitopj from "../assets/images/robot.jpg";
 import ktownpj from "../assets/images/ktownpj.jpg";
-import color from "../assets/images/color.jpg";
 import insideout from "../assets/images/insideout.jpg";
 import community from "../assets/images/community.jpg";
 import portfolio from "../assets/images/ABOUTMELOGO.png";
@@ -42,6 +41,7 @@ import vb6 from "../assets/images/vb6.JPG"
 import vb_certificate from "../assets/images/vb-certificate.jpg"
 import floodsync from "../assets/images/floodsync.PNG"
 import dailysuite from "../assets/images/dailysuite.png"
+import bin from "../assets/images/bin.png"
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -276,11 +276,11 @@ export const PROJECTS = [
     },
     {
         id: 9,
-        title: "Color Palette Generator and Dynamic Background",
-        image: color,
-        tags: ["React", "CSS"],
-        link: "https://github.com/wintwah243/dynamic-bg-generator",
-        type: "Frontend"
+        title: "Smart Waste Sorting Bin",
+        image: bin,
+        tags: ["Python", "Arduino uno", "OpenCV"],
+        link: "https://github.com/wintwah243/EnvironNet-aiot",
+        type: "AIoT"
     },
     {
         id: 10,
