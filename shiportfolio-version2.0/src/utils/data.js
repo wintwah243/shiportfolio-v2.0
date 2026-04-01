@@ -19,7 +19,6 @@ import {
 } from "react-icons/vsc";
 import { FaGitAlt } from "react-icons/fa6";
 import { MdGroups3 } from "react-icons/md";
-
 import BudgetBeePJ from "../assets/images/BudgetBeePJ.JPG";
 import mapitopj from "../assets/images/robot.jpg";
 import ktownpj from "../assets/images/ktownpj.jpg";
