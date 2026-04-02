@@ -42,7 +42,7 @@ import floodsync from "../assets/images/floodsync.PNG"
 import dailysuite from "../assets/images/dailysuite.png"
 import bin from "../assets/images/bin.png"
 import c2c1 from "../assets/images/c2c1.JPG"
-import c2c2 from "../assets/images/c2c2.HEIC"
+import c2c2 from "../assets/images/c2c2.jpg"
 import c2c3 from "../assets/images/c2c3.jpg"
 import code2career from "../assets/images/code2career.JPG"
 
