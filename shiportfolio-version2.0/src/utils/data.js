@@ -12,7 +12,7 @@ import {
     FaProjectDiagram
 } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
-import { SiExpress, SiMongodb, SiMysql, SiTailwindcss, SiPostman, SiFastapi, SiDjango } from "react-icons/si";
+import { SiExpress, SiMongodb, SiMysql, SiTailwindcss, SiPostman, SiFastapi, SiDjango, SiN8N } from "react-icons/si";
 import {
     VscVscode,
     VscCommentUnresolved,
@@ -197,7 +197,15 @@ export const SKILLS = [
         progress: 70, 
         type: "language",
         description: "I leverage Django to build robust and secure web applications. Its 'batteries-included' philosophy allows me to handle authentication, database management, and admin panels quickly, ensuring a scalable and maintainable backend architecture.",
-    }
+    },
+    {
+    id: "18",
+    icon: SiN8N,
+    skill: "n8n",
+    progress: 50,
+    type: "tools",
+    description: "I use n8n to design intelligent workflow automations that connect APIs, AI agents, databases, and productivity tools into seamless systems. It helps me build scalable no-code and low-code solutions for task automation, data synchronization, scheduled processes, and AI-powered business workflows with high efficiency.",
+}
 ];
 
 export const ABOUT_ME = {
@@ -342,6 +350,13 @@ export const COMMUNITY_WORK = [
         images: [vb1, vb2, vb3, vb4, vb5, vb6, vb_certificate],
         description:
             'Won First Runner-Up at Venture Base Hackathon 2025. Our project — WolfEye+ (PPE Detection and Face Recognition System) — was designed to promote workplace safety through AI innovation. The idea came from a simple belief: technology should protect people. By automating safety monitoring in industrial sites, we aim to reduce accidents and support a culture of responsibility and care in every workplace. Safe today, Strong tomorrow. This project reflects our commitment to community-focused innovation, contributing to Sustainable Development Goal by fostering safer, more resilient industries.',
+    },
+    {
+        id: 4,
+        title: 'Code2Career Hackathon 2025',
+        images: [c2c1, c2c2, c2c3, code2career],
+        description:
+            'Won **First Runner-Up at the Code2Career Hackathon** with our project — **FloodSync**, an AI-powered flood disaster response and coordination system. Our idea was driven by a simple belief: technology should help communities stay safe during emergencies. By using intelligent flood monitoring, early risk alerts, and real-time coordination support, FloodSync aims to reduce disaster response delays and help vulnerable communities prepare faster and recover stronger. **Prepared today, Protected tomorrow.** This project reflects our dedication to community-centered innovation and resilience, contributing to the Sustainable Development Goals by supporting safer, smarter, and more disaster-ready communities.',
     },
 ];
 
