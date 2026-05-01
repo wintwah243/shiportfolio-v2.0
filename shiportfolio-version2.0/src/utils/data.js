@@ -305,6 +305,11 @@ export const PROJECTS = [
 
 export const timelineData = [
     {
+        title: "AI Ready ASEAN Youth Challenge 2026",
+        date: "Jan 5 - May 23, 2026",
+        description: "Participated in the AI Ready ASEAN Youth Challenge 2026 and won the National Winner Title Representing Myanmar and got change to represent the country at the international level in Singapore. Our project, Edge AI Education Infrastructure for Rural Students in Myanmar, designed to support digital learning in rural communities by implementing offline AI education platform using Raspberry Pi and edge computing, providing access to AI learning resources without internet connectivity.",
+    },
+    {
         title: "Code2Career Hackathon 2025",
         date: "November 2025",
         description: "Participated in the Code2Career Hackathon 2025 and won the First Runner-Up prize. Developed 'FloodSync', a mobile app designed to support communities during flood disasters by providing real-time information, risk alerts, and emergency coordination tools.",
@@ -356,7 +361,7 @@ export const COMMUNITY_WORK = [
         title: 'Code2Career Hackathon 2025',
         images: [c2c1, c2c2, c2c3, code2career],
         description:
-            'Won **First Runner-Up at the Code2Career Hackathon** with our project — **FloodSync**, an AI-powered flood disaster response and coordination system. Our idea was driven by a simple belief: technology should help communities stay safe during emergencies. By using intelligent flood monitoring, early risk alerts, and real-time coordination support, FloodSync aims to reduce disaster response delays and help vulnerable communities prepare faster and recover stronger. **Prepared today, Protected tomorrow.** This project reflects our dedication to community-centered innovation and resilience, contributing to the Sustainable Development Goals by supporting safer, smarter, and more disaster-ready communities.',
+            'Won First Runner-Up at the Code2Career Hackathon with our project — FloodSync, an AI-powered flood disaster response and coordination system. Our idea was driven by a simple belief: technology should help communities stay safe during emergencies. By using intelligent flood monitoring, early risk alerts, and real-time coordination support, FloodSync aims to reduce disaster response delays and help vulnerable communities prepare faster and recover stronger. Prepared today, Protected tomorrow. This project reflects our dedication to community-centered innovation and resilience, contributing to the Sustainable Development Goals by supporting safer, smarter, and more disaster-ready communities.',
     },
 ];
 
