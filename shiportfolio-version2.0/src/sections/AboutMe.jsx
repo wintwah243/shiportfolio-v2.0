@@ -37,7 +37,7 @@ const AboutMe = () => {
   </div>
 
   <div className='mt-4 text-center'>
-    <h3 className='text-lg font-semibold'>Wint Wah (Shi)</h3>
+    <h3 className='text-lg font-semibold'>Wint Wah Kyaw Soe</h3>
      {/* <h5 className='text-sm text-gray-900'>University of Computer Studies, Yangon</h5> */}
     <p className='text-sm text-gray-600'>
       Developer | Software Engineer

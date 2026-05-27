@@ -305,9 +305,14 @@ export const PROJECTS = [
 
 export const timelineData = [
     {
-        title: "AI Ready ASEAN Youth Challenge 2026",
+        title: "National Winner at AIRAYC 2026",
         date: "Jan 5 - May 23, 2026",
-        description: "Participated in the AI Ready ASEAN Youth Challenge 2026 and won the National Winner Title Representing Myanmar and got change to represent the country at the international level in Singapore. Our project, Edge AI Education Infrastructure for Rural Students in Myanmar, designed to support digital learning in rural communities by implementing offline AI education platform using Raspberry Pi and edge computing, providing access to AI learning resources without internet connectivity.",
+        description: "Participated in the AI Ready ASEAN Youth Challenge 2026 and won the National Winner Title Representing Myanmar and got change to represent the country at the international level in Singapore.",
+    },
+    {
+        title: "3rd Place Winner at AIRAYC 2026 Regional Finals in Singapore",
+        date: "Jan 5 - May 23, 2026",
+        description: "Represented the country at the international level in Singapore and secured the Second Runner-Up (3rd Place) title among 11 ASEAN nations at the Regional Grand Final.",
     },
     {
         title: "Code2Career Hackathon 2025",
