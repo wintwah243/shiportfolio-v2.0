@@ -310,27 +310,27 @@ export const timelineData = [
         description: "Participated in the AI Ready ASEAN Youth Challenge 2026 and won the National Winner Title Representing Myanmar and got change to represent the country at the international level in Singapore.",
     },
     {
-        title: "3rd Place Winner at AIRAYC 2026 Regional Finals in Singapore",
+        title: "2nd Runner-Up - AIRAYC 2026 Regional Finals in Singapore",
         date: "Jan 5 - May 23, 2026",
         description: "Represented the country at the international level in Singapore and secured the Second Runner-Up (3rd Place) title among 11 ASEAN nations at the Regional Grand Final.",
     },
     {
-        title: "Code2Career Hackathon 2025",
+        title: "1st Runner-Up - Code2Career Hackathon 2025",
         date: "November 2025",
         description: "Participated in the Code2Career Hackathon 2025 and won the First Runner-Up prize. Developed 'FloodSync', a mobile app designed to support communities during flood disasters by providing real-time information, risk alerts, and emergency coordination tools.",
     },
     {
-        title: "Venture Base Hackathon 2025",
+        title: "1st Runner-Up - Venture Base Hackathon 2025",
         date: "October 2025",
         description: "Participated in the Venture Base Hackathon 2025 and won the First Runner-Up prize. Developed 'WolfEye+', an innovative web application featuring face recognition and PPE detection.",
     },
     {
-        title: "Nuclear Science Hackathon - HackAtom Myanmar 2024",
+        title: "Participant - Nuclear Science Hackathon(HackAtom Myanmar 2024)",
         date: "August 2024",
         description: "We developed a 4D proposal to build a small modular nuclear power plant in Myanmar, focusing on design, deployment, development, and disaster management."
     },
     {
-        title: "UCSY Product Show and Job Fair 2025",
+        title: "Consolation Prize - UCSY Product Show and Job Fair 2025",
         date: "September 2025",
         description: "After completing two selection stages, my project Mapito was awarded a consolation prize among 60 project groups."
     }

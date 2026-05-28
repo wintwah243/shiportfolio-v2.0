@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Code2, Palette, Workflow } from 'lucide-react'
+import { Code2, Satellite, Workflow } from 'lucide-react'
 
 const Work = () => {
   return (
@@ -21,29 +21,30 @@ const Work = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        {/* Web Development Block */}
+        {/* Web and app Development Block */}
         <div className='bg-yellow-200 p-6 rounded-2xl shadow-md hover:shadow-lg transition'>
           <div className='flex items-center gap-3 mb-2'>
             <Code2 className='text-black' size={24} />
-            <h5 className='text-lg font-semibold text-black'>Web Development</h5>
+            <h5 className='text-lg font-semibold text-black'>Web and App Development</h5>
           </div>
           <p className='text-sm leading-6 text-justify text-black'>
-            I build complete web applications by working on both the frontend and backend. 
+            I build complete web and mobile applications by working on both the frontend and backend. 
             This includes creating responsive user interfaces, integrating APIs, managing databases, 
             and deploying scalable solutions.
           </p>
         </div>
 
-        {/* UI Design Block */}
+        {/* AI Agent and Automation Block */}
         <div className='bg-blue-200 p-6 rounded-2xl shadow-md hover:shadow-lg transition'>
           <div className='flex items-center gap-3 mb-2'>
-            <Palette className='text-black' size={24} />
-            <h5 className='text-lg font-semibold text-black'>UI Design & Prototyping</h5>
+            <Satellite className='text-black' size={24} />
+            <h5 className='text-lg font-semibold text-black'>AI Agent and Automation</h5>
           </div>
           <p className='text-sm leading-6 text-justify text-black'>
-            I design interactive and visually appealing UI prototypes for web and mobile applications. 
-            My process involves understanding user needs, crafting intuitive layouts, and using tools 
-            like Figma.
+            I build practical AI agents and automation workflows to streamline everyday tasks and
+             boost efficiency. My process involves identifying repetitive manual steps, 
+             designing logical paths, and using tools like n8n alongside APIs to connect 
+             different services and make them run smoothly on their own.
           </p>
         </div>
 
