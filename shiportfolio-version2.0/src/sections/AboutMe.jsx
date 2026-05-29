@@ -18,7 +18,7 @@ const AboutMe = () => {
       </h4>
 
       <div className='flex flex-col lg:flex-row gap-16 items-start justify-between'>
-        
+
         {/* ---- IMAGE ---- */}
         <motion.div
           className='w-[300px] md:w-[370px] mx-auto'
@@ -28,22 +28,22 @@ const AboutMe = () => {
           transition={{ duration: 0.6 }}
         >
           <div className='bg-gray-100 shadow-xl rounded-2xl p-4 border border-gray-200'>
-  <div className='w-full h-[320px] flex items-center justify-center rounded-xl border border-gray-300 bg-white'>
-    <img
-      src={ABOUTMELOGO}
-      alt='Profile'
-      className='w-full h-full object-contain p-2'
-    />
-  </div>
+            <div className='w-full h-[320px] flex items-center justify-center rounded-xl border border-gray-300 bg-white'>
+              <img
+                src={ABOUTMELOGO}
+                alt='Profile'
+                className='w-full h-full object-contain p-2'
+              />
+            </div>
 
-  <div className='mt-4 text-center'>
-    <h3 className='text-lg font-semibold'>Wint Wah Kyaw Soe</h3>
-     {/* <h5 className='text-sm text-gray-900'>University of Computer Studies, Yangon</h5> */}
-    <p className='text-sm text-gray-600'>
-      Developer | Software Engineer
-    </p>
-  </div>
-</div>
+            <div className='mt-4 text-center'>
+              <h3 className='text-lg font-semibold'>Wint Wah Kyaw Soe</h3>
+              {/* <h5 className='text-sm text-gray-900'>University of Computer Studies, Yangon</h5> */}
+              <p className='text-sm text-gray-600'>
+                Developer | Software Engineer
+              </p>
+            </div>
+          </div>
 
         </motion.div>
 
@@ -74,7 +74,7 @@ const AboutMe = () => {
 
           <div className='flex gap-4 mt-6'>
             {ABOUT_ME.socialLinks.map((item) => (
-              <a key={item.label} href={item.Link} className='cursor-pointer group'>
+              <a key={item.label} href={item.link} className='cursor-pointer group'>
                 <item.icon className='text-2xl text-semibold transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 group-hover:translate-y-[-2px]' />
               </a>
             ))}
