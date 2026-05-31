@@ -47,6 +47,7 @@ import c2c3 from "../assets/images/c2c3.jpg"
 import code2career from "../assets/images/code2career.JPG"
 import airayc1 from "../assets/images/airayc1.JPEG"
 import airayc2 from "../assets/images/airayc2.jpg"
+import airayc3 from "../assets/images/airayc3.JPEG"
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -373,7 +374,7 @@ export const COMMUNITY_WORK = [
     {
         id: 5,
         title: 'AI Ready ASEAN Youth Challenge 2026',
-        images: [airayc1, airayc2],
+        images: [airayc1, airayc2, airayc3],
         description:
             'Won the National Winner title for Myanmar and secured Second Runner-Up (3rd Place) out of 11 ASEAN nations at the AI Ready ASEAN Youth Challenge 2026 Regional Grand Finals in Singapore with our project — FutureFlux, an offline AI-powered learning station built on Raspberry Pi 5 for rural offline digital education. Our idea was driven by a simple belief: every student deserves access to quality education, regardless of internet connectivity. By deploying a localized personal tutor, interactive AI chatbots, and offline digital curriculum through a single low budget hardware device, FutureFlux aims to bridge the digital divide and empower underserved classrooms to learn smarter and grow faster. Empowering Minds, Connecting Futures. This project reflects our dedication to inclusive, community-centered innovation, contributing to the Sustainable Development Goals by ensuring equitable learning opportunities for all.',
     },
