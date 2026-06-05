@@ -48,6 +48,7 @@ import code2career from "../assets/images/code2career.JPG"
 import airayc1 from "../assets/images/airayc1.JPEG"
 import airayc2 from "../assets/images/airayc2.jpg"
 import airayc3 from "../assets/images/airayc3.JPEG"
+import futureflux from "../assets/images/offline.jpg"
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -242,6 +243,14 @@ export const PROJECTS = [
     },
     {
         id: 3,
+        title: "FutureFlux: Edge AI Education Infrastructure",
+        image: futureflux,
+        tags: ["Raspberry Pi 5", "Piper TTS", "React Native", "FastAPI"],
+        link: "https://www.google.com/this-page-does-not-exist",
+        type: "Private Project :)"
+    },
+    {
+        id: 4,
         title: "BudgetBee || Budget Tracking Project",
         image: BudgetBeePJ,
         tags: ["React", "Express", "MongoDB", "Node"],
@@ -249,7 +258,7 @@ export const PROJECTS = [
         type: "Full Stack"
     },
     {
-        id: 4,
+        id: 5,
         title: "WolfEye+",
         image: wolf,
         tags: ["React", "FastAPI", "MongoDB", "YOLO"],
@@ -257,7 +266,7 @@ export const PROJECTS = [
         type: "Community Support"
     },
     {
-        id: 5,
+        id: 6,
         title: "Mapito || AI-powered Practicing Platform for Developer",
         image: mapitopj,
         tags: ["React", "Express", "MongoDB", "GEMINI"],
@@ -265,7 +274,7 @@ export const PROJECTS = [
         type: "Full Stack"
     },
     {
-        id: 6,
+        id: 7,
         title: "DailySuite",
         image: dailysuite,
         tags: ["Django", "TailwindCSS", "GROQ AI"],
@@ -273,7 +282,7 @@ export const PROJECTS = [
         type: "Full Stack"
     },
     {
-        id: 7,
+        id: 8,
         title: "Community Involvement Guidance",
         image: community,
         tags: ["Jupyter Notebook", "Model Train"],
@@ -281,7 +290,7 @@ export const PROJECTS = [
         type: "Community Support"
     },
     {
-        id: 8,
+        id: 9,
         title: "My Developer Portfolio Website",
         image: portfolio,
         tags: ["React", "TailwindCss"],
@@ -289,7 +298,7 @@ export const PROJECTS = [
         type: "Frontend"
     },
     {
-        id: 9,
+        id: 10,
         title: "Smart Waste Sorting Bin",
         image: bin,
         tags: ["Python", "Arduino uno", "OpenCV"],
@@ -297,7 +306,7 @@ export const PROJECTS = [
         type: "AIoT"
     },
     {
-        id: 10,
+        id: 11,
         title: "K-Town || Album Shopping Website",
         image: ktownpj,
         tags: ["JavaEE", "JSP", "MySQL"],
