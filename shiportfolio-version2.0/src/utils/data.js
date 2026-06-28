@@ -319,6 +319,21 @@ export const PROJECTS = [
 
 export const timelineData = [
     {
+        title: "Project Executive @UAB Bank (CEO Office - Special Projects Team)",
+        date: "2026",
+        description: "Secured a full-time permanent position offer directly from an internship, driven by outstanding technical performance and execution."
+    },
+    {
+        title: "Internship @UAB Bank",
+        date: "Oct - Dec, 2026",
+        description: "Secured both an internship and a full-time permanent position offer @UAB Bank, based on strong performance and technical contributions."
+    },
+    {
+        title: "UAB Scholarship Awardee",
+        date: "2026",
+        description: "Awarded a full scholarship by UAB bank for my final year of university studies, recognizing my academic excellence and potential in the field of technology.",
+    },
+    {
         title: "National Winner at AIRAYC 2026",
         date: "Jan 5 - May 23, 2026",
         description: "Participated in the AI Ready ASEAN Youth Challenge 2026 and won the National Winner Title Representing Myanmar and got change to represent the country at the international level in Singapore.",
