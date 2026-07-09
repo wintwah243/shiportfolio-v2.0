@@ -30,10 +30,10 @@
   .btn-scale-anim{
     @apply transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg;
   }
-  .profile-pic{
+  /* .profile-pic{
     @apply w-[300px] md:w-[370px] h-[350px] md:h-[428px] rotate-[5.75deg] transition-transform duration-300 
     ease-in-out hover:scale-105 hover:rotate-[3deg];
-  }
+  } */
   .section-title{
     @apply text-[26px] font-semibold text-left text-center;
   }

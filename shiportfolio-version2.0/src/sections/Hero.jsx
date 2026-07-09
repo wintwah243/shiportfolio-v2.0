@@ -1,5 +1,5 @@
 import React from 'react';
-import LOGO from "../assets/images/LOGO.png";
+import LOGO from "../assets/images/hero_pf.jpg";
 import Bot from '../components/Bot';
 import { motion } from 'framer-motion';
 import TimelineSection from '../components/TimelineSection';
@@ -23,7 +23,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-           a software engineering student passionate about using technology to build community-support projects.
+            a software engineering student passionate about using technology to build community-support projects.
           </motion.h1>
 
           <motion.p
@@ -49,7 +49,7 @@ const Hero = () => {
             >
               View My Projects
             </button>
-            
+
             <button className='flex-1 md:flex-none action-btn btn-scale-anim'>
               <a
                 href="/WintWahKyawSoe.pdf"
@@ -58,22 +58,22 @@ const Hero = () => {
                 Download CV
               </a>
             </button>
-            
+
           </motion.div>
         </motion.div>
 
         <motion.div
-          className='w-[300px] md:w-[370px] h-[350px] md:h-[428px] rounded-3xl relative order-1 lg:order-2'
+          className='w-[300px] h-[300px] md:w-[370px] md:h-[370px] rounded-full overflow-hidden relative order-1 lg:order-2'
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          <img src={LOGO} alt='Profile Pic' className='profile-pic' />
+          <img src={LOGO} alt='Profile Pic' className='profile-pic w-full h-full object-cover' />
         </motion.div>
       </div>
 
-       <TimelineSection />
-       <Bot />
+      <TimelineSection />
+      <Bot />
     </section>
   );
 };
