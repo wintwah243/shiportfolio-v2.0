@@ -406,4 +406,17 @@ export const COMMUNITY_WORK = [
     },
 ];
 
+export const BLOGS = [
+  {
+    id: 1,
+    title: 'Participant Spotlight: How FutureFlux Put an Offline AI Hub in Rural ASEAN Classrooms',
+    description: 'Wint Wah Kyaw Soe, a student at the University of Computer Studies of Yangon, represented Myanmar and competed as FutureFlux with 2 other members. The team took the Myanmar national title, then placed third at the Regional Grand Finals in Singapore. ',
+    image: airayc2, 
+    date: 'Aug 26, 2026',
+    readTime: '5 min read',
+    tags: ['React', 'Tailwind'],
+    link: 'https://angelhack.com/blog/futureflux-ai-ready-asean-2026/',
+  },
+]
+
 
