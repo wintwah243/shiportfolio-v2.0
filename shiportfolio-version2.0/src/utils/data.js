@@ -319,19 +319,19 @@ export const PROJECTS = [
 
 export const timelineData = [
     {
-        title: "Project Executive @UAB Bank (CEO Office - Special Projects Team)",
+        title: "Project Executive @uab (CEO Office - Special Projects Team)",
         date: "2026",
         description: "Secured a full-time permanent position offer directly from an internship, driven by outstanding technical performance and execution."
     },
     {
-        title: "Internship @UAB Bank",
+        title: "Internship @uab (CEO Office - Special Projects Team)",
         date: "Oct - Dec, 2026",
-        description: "Secured both an internship and a full-time permanent position offer @UAB Bank, based on strong performance and technical contributions."
+        description: "Secured both an internship and a full-time permanent position offer at uab, based on strong performance and technical contributions."
     },
     {
-        title: "UAB Scholarship Awardee",
+        title: "uab Scholar",
         date: "2026",
-        description: "Awarded a full scholarship by UAB bank for my final year of university studies, recognizing my academic excellence and potential in the field of technology.",
+        description: "Awarded a full scholarship by uab bank for my final year of university studies, recognizing my academic excellence and potential in the field of technology.",
     },
     {
         title: "National Winner at AIRAYC 2026",
